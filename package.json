@@ -1,0 +1,19 @@
+{
+  "name": "alchembook-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:CRFLuiz/alchembook-backend.git",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "local": "ENV=LOCAL nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "openai": "^4.100.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
