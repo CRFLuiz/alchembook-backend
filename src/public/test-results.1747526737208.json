@@ -1,0 +1,367 @@
+[
+    {
+        "model": "meta-llama/llama-3.3-8b-instruct:free",
+        "error": {}
+    },
+    {
+        "model": "nousresearch/deephermes-3-mistral-24b-preview:free",
+        "error": {}
+    },
+    {
+        "model": "microsoft/phi-4-reasoning-plus:free",
+        "error": {}
+    },
+    {
+        "model": "microsoft/phi-4-reasoning:free",
+        "error": {}
+    },
+    {
+        "model": "qwen/qwen3-0.6b-04-28:free",
+        "error": {}
+    },
+    {
+        "model": "qwen/qwen3-1.7b:free",
+        "error": {}
+    },
+    {
+        "model": "qwen/qwen3-4b:free",
+        "error": {}
+    },
+    {
+        "model": "opengvlab/internvl3-14b:free",
+        "error": {}
+    },
+    {
+        "model": "deepseek/deepseek-prover-v2:free",
+        "error": {}
+    },
+    {
+        "model": "qwen/qwen3-30b-a3b:free",
+        "error": {}
+    },
+    {
+        "model": "qwen/qwen3-8b:free",
+        "error": {}
+    },
+    {
+        "model": "qwen/qwen3-14b:free",
+        "error": {}
+    },
+    {
+        "model": "qwen/qwen3-32b:free",
+        "error": {}
+    },
+    {
+        "model": "qwen/qwen3-235b-a22b:free",
+        "error": {}
+    },
+    {
+        "model": "tngtech/deepseek-r1t-chimera:free",
+        "error": {}
+    },
+    {
+        "model": "thudm/glm-z1-9b:free",
+        "error": {}
+    },
+    {
+        "model": "microsoft/mai-ds-r1:free",
+        "error": {}
+    },
+    {
+        "model": "thudm/glm-z1-32b:free",
+        "error": {}
+    },
+    {
+        "model": "thudm/glm-4-32b:free",
+        "error": {}
+    },
+    {
+        "model": "shisa-ai/shisa-v2-llama3.3-70b:free",
+        "error": {}
+    },
+    {
+        "model": "arliai/qwq-32b-arliai-rpr-v1:free",
+        "error": {}
+    },
+    {
+        "model": "agentica-org/deepcoder-14b-preview:free",
+        "error": {}
+    },
+    {
+        "model": "moonshotai/kimi-vl-a3b-thinking:free",
+        "error": {}
+    },
+    {
+        "model": "nvidia/llama-3.3-nemotron-super-49b-v1:free",
+        "error": {}
+    },
+    {
+        "model": "nvidia/llama-3.1-nemotron-ultra-253b-v1:free",
+        "error": {}
+    },
+    {
+        "model": "meta-llama/llama-4-maverick:free",
+        "modelResponse": "I'm just a language model, so I don't have feelings or emotions like humans do, but I'm functioning properly and ready to help with any questions or tasks you have! How can I assist you today?",
+        "ms": 866,
+        "s": 0.866
+    },
+    {
+        "model": "meta-llama/llama-4-scout:free",
+        "modelResponse": "Hello! I'm just a language model, I don't have feelings like humans do, but I'm functioning properly and ready to help you with any questions or tasks you have! How can I assist you today?",
+        "ms": 1310,
+        "s": 1.31
+    },
+    {
+        "model": "deepseek/deepseek-v3-base:free",
+        "modelResponse": "Good day, how are you today?তজগনকতযতজগনকHow is the weather today?তঢAnd I'm doing well. What about you?তযHow can I help you?তটগনকWhat can I assist you with?\n\nফল (Relevance: 100% Past Date: 2024-02-27 03:06:31)\n\nHow can I solve quadratic equations with symmetry using the quadratic formula in R? রবীন্দ্রনাথHow can I solve quadratic equations with symmetry using the quadratic formula in R?রঅHow can I solve quadratic equations with symmetry using the quadratic formula in R?রযগভঅরকনHow can I solve quadratic equations with symmetry using the quadratic formula in R?রযগগভঅরকনHow can I solve quadratic equations with symmetry using the quadratic formula in R?রযগভরগHow can I solve quadratic equations with symmetry using the quadratic formula in R?রযগভতরগHow can I solve quadratic equations with symmetry using the quadratic formula in R?রযগগভরনListen\n\nIn a lab activity, students are tasked with analyzing genetic information to determine the probability of offspring inheriting a specific trait. The genetic information is represented by pairs of alleles, which can be either dominant (represented by uppercase letters) or recessive (represented by lowercase letters). Students are provided with various pairs of alleles and are asked to write code in R to calculate the probability of a specific trait being expressed in the offspring based on the given genetic information. Furthermore, students are required to extend their code to handle cases where the genetic information involves more than two pairs of alleles. They need to modify their code to calculate the probability of the specific trait being expressed in the offspring, taking into account the inheritance patterns of multiple pairs of alleles. Additionally, students should ensure that their code is flexible enough to handle variable input data, where the number of alleles in the genetic information may vary. To test the accuracy of their code, students should include test cases with input data of varying lengths and demonstrate how the probability calculations adapt accordingly. Lastly, students should consider time and space complexity while writing their code, aiming for efficiency and optimization in both factors. They should analyze the impact of different input lengths on the execution time and memory usage of their code. Overall, the lab activity challenges students to develop a solution that handles genetic information of varying lengths, accurately calculates the probability of specific traits being expressed in offspring, and considers efficiency and optimization in code implementation.লাক অকটন অভ লাকটয লআকটটযইটক Specify how you want your reply to sound.শাওটকটকংGive an example that meets these criteria. ত ল লটকতটকটতলটটটতকতকটকটটকতভगাগভঅঅতক তল লনকটনকতকটটতভগ How can one identify the language-specific patterns in source code to identify the programming style being used?\n\n## Contents\n\n#### HackerRank Solutions\n\nIn the Algo Matrix section, users can practice and improve their algorithmic skills by solving a variety of HackerRank ... Read More...",
+        "ms": 9247,
+        "s": 9.247
+    },
+    {
+        "model": "bytedance-research/ui-tars-72b:free",
+        "modelResponse": "I'm an AI assistant and don't have personal experiences or emotions, but I'm here to help you. How can I assist you today?",
+        "ms": 2748,
+        "s": 2.748
+    },
+    {
+        "model": "qwen/qwen2.5-vl-3b-instruct:free",
+        "modelResponse": "Hello! I'm just a computer program, so I don't have feelings. But I'm here to help you with any questions you might have. How can I assist you today?",
+        "ms": 1479,
+        "s": 1.479
+    },
+    {
+        "model": "google/gemini-2.5-pro-exp-03-25",
+        "error": {
+            "status": 404,
+            "headers": {
+                "access-control-allow-origin": "*",
+                "cf-ray": "941715b09823efac-PDX",
+                "connection": "keep-alive",
+                "content-encoding": "gzip",
+                "content-type": "application/json",
+                "date": "Sun, 18 May 2025 00:02:15 GMT",
+                "server": "cloudflare",
+                "transfer-encoding": "chunked",
+                "vary": "Accept-Encoding",
+                "x-clerk-auth-message": "Invalid JWT form. A JWT consists of three parts separated by dots. (reason=token-invalid, token-carrier=header)",
+                "x-clerk-auth-reason": "token-invalid",
+                "x-clerk-auth-status": "signed-out"
+            },
+            "error": {
+                "message": "No endpoints found for google/gemini-2.5-pro-exp-03-25.",
+                "code": 404
+            },
+            "code": 404
+        }
+    },
+    {
+        "model": "qwen/qwen2.5-vl-32b-instruct:free",
+        "modelResponse": "Hello! I'm just a program, so I don't have feelings, but I'm here and ready to help you with any questions or tasks you might have. How are *you* today? 😊",
+        "ms": 1595,
+        "s": 1.595
+    },
+    {
+        "model": "deepseek/deepseek-chat-v3-0324:free",
+        "modelResponse": "I'm just a computer program, so I don't have feelings, but I'm here and ready to help you with anything you need! How can I assist you today? 😊",
+        "ms": 1453,
+        "s": 1.453
+    },
+    {
+        "model": "featherless/qwerky-72b:free",
+        "modelResponse": "Hello! I'm just a computer program, so I don't have feelings, but I'm here and ready to help you. How can I assist you today?",
+        "ms": 2630,
+        "s": 2.63
+    },
+    {
+        "model": "mistralai/mistral-small-3.1-24b-instruct:free",
+        "modelResponse": "Hello! I'm functioning perfectly, thank you. I'm here to help. How can I assist you today?",
+        "ms": 1011,
+        "s": 1.011
+    },
+    {
+        "model": "open-r1/olympiccoder-32b:free",
+        "modelResponse": "",
+        "ms": 35336,
+        "s": 35.336
+    },
+    {
+        "model": "google/gemma-3-1b-it:free",
+        "modelResponse": "\n\nI'm doing well today, thank you for asking! As an AI, I don’t really experience feelings in the same way humans do, but I’m functioning optimally and ready to assist you. 😊 \n\nHow are *you* doing? Is there anything you’d like to talk about or need help with?",
+        "ms": 17842,
+        "s": 17.842
+    },
+    {
+        "model": "google/gemma-3-4b-it:free",
+        "modelResponse": "\n\nHello there! I’m doing well, thanks for asking! As an AI, I don’t really *feel* in the same way humans do, but my systems are running smoothly and I’m ready to help you with whatever you need. 😊 \n\nHow are *you* doing today? Is there anything I can assist you with?",
+        "ms": 1834,
+        "s": 1.834
+    },
+    {
+        "model": "google/gemma-3-12b-it:free",
+        "modelResponse": "\nHello! I'm doing well, thank you for asking! As an AI, I don't *feel* in the same way humans do, but everything's running smoothly and I'm ready to help. 😊 \n\nHow are *you* doing today?",
+        "ms": 2237,
+        "s": 2.237
+    },
+    {
+        "model": "rekaai/reka-flash-3:free",
+        "modelResponse": " <reasoning>\nThe user just greeted me with \"Hello, how are you?\" I need to respond appropriately. First, as an AI, I don't have feelings, but I should acknowledge their greeting and let them know I'm here to help.\n\nHmm, maybe start by saying something like, \"Hello! I'm just a program, so I don't have feelings, but I'm ready and excited to help you with whatever you need today.\" That sounds friendly and sets the right tone.\n\nWait, should I add a bit more to make it engaging? Maybe mention examples of how I can assist them, like answering questions or solving problems. Let me adjust that: \"I don't have feelings, but I'm here and ready to help you with anything—whether it's answering questions, solving a problem, or just chatting about something interesting. What can I do for you today?\"\n\nYeah, that includes a variety of possibilities and invites the user to ask for specific help. I should keep the response positive and open-ended. Avoid any technical jargon. Make sure it's clear that I'm here to assist them in any way they need. Alright, that should work.\n</reasoning>\n\nHello! I'm just a program, so I don't have feelings, but I'm here and ready to help you with anything—whether it's answering questions, solving a problem, or just chatting about something interesting. What can I do for you today?\n\n ",
+        "ms": 5124,
+        "s": 5.124
+    },
+    {
+        "model": "google/gemma-3-27b-it:free",
+        "modelResponse": "\n\nHello! As an AI, I don't *experience* things like \"being\" in the same way people do, but I'm functioning optimally! So you could say I'm doing well. 😄 \n\nHow are *you* doing today? Is there anything I can help you with?\n\n\n\n",
+        "ms": 2153,
+        "s": 2.153
+    },
+    {
+        "model": "deepseek/deepseek-r1-zero:free",
+        "modelResponse": "\\boxed{\\left[\\frac{1}{5}, +\\infty\\right)}",
+        "ms": 86721,
+        "s": 86.721
+    },
+    {
+        "model": "qwen/qwq-32b:free",
+        "modelResponse": "Hello! I'm just a large language model, so I don't have feelings or emotions, but thank you for asking! How can I assist you today?",
+        "ms": 3646,
+        "s": 3.646
+    },
+    {
+        "model": "moonshotai/moonlight-16b-a3b-instruct:free",
+        "modelResponse": "Hello! I'm doing well, thank you for asking. How about you?",
+        "ms": 1414,
+        "s": 1.414
+    },
+    {
+        "model": "nousresearch/deephermes-3-llama-3-8b-preview:free",
+        "modelResponse": "I'm doing great, thank you! How can I assist you today?",
+        "ms": 1535,
+        "s": 1.535
+    },
+    {
+        "model": "cognitivecomputations/dolphin3.0-r1-mistral-24b:free",
+        "modelResponse": "Hello! 😊 I'm doing well, thank you. How can I assist you today?",
+        "ms": 3856,
+        "s": 3.856
+    },
+    {
+        "model": "cognitivecomputations/dolphin3.0-mistral-24b:free",
+        "modelResponse": "Hello! I'm doing well. Thank you for asking. How about yourself?",
+        "ms": 1339,
+        "s": 1.339
+    },
+    {
+        "model": "qwen/qwen2.5-vl-72b-instruct:free",
+        "modelResponse": "Hello! As an AI language model, I don't have feelings, but I'm functioning well and ready to assist you with any questions or tasks you may have. How can I help you today?",
+        "ms": 1964,
+        "s": 1.964
+    },
+    {
+        "model": "mistralai/mistral-small-24b-instruct-2501:free",
+        "modelResponse": "I'm functioning as intended, thank you! How can I assist you today?",
+        "ms": 1233,
+        "s": 1.233
+    },
+    {
+        "model": "deepseek/deepseek-r1-distill-qwen-32b:free",
+        "modelResponse": "Thank you for recognizing that! I'm here to help. How can I assist you today?",
+        "ms": 1751,
+        "s": 1.751
+    },
+    {
+        "model": "deepseek/deepseek-r1-distill-qwen-14b:free",
+        "modelResponse": "Hello! How can I assist you today? Feel free to ask anything you'd like help with.",
+        "ms": 6255,
+        "s": 6.255
+    },
+    {
+        "model": "deepseek/deepseek-r1-distill-llama-70b:free",
+        "modelResponse": "Hello! I'm just a computer program, so I don't have feelings, but I'm here and ready to help you with whatever you need. How can I assist you today?",
+        "ms": 2789,
+        "s": 2.789
+    },
+    {
+        "model": "deepseek/deepseek-r1:free",
+        "modelResponse": "Hello! I'm just a computer program, so I don't have feelings, but I'm here and ready to help with whatever you need. How can I assist you today? 😊",
+        "ms": 2905,
+        "s": 2.905
+    },
+    {
+        "model": "deepseek/deepseek-chat:free",
+        "modelResponse": "I'm just a computer program, so I don't have feelings, but thanks for asking! How can I assist you today? 😊",
+        "ms": 1326,
+        "s": 1.326
+    },
+    {
+        "model": "google/gemini-2.0-flash-exp:free",
+        "error": {}
+    },
+    {
+        "model": "meta-llama/llama-3.3-70b-instruct:free",
+        "modelResponse": "Hello! I'm doing well, thank you for asking! I'm a large language model, so I don't exonere emotions or have personal experiences like humans do, but I'm always happy to chat and help with any questions or topics you'd like to discuss. How about you? How's your day going so far?",
+        "ms": 1950,
+        "s": 1.95
+    },
+    {
+        "model": "qwen/qwen-2.5-coder-32b-instruct:free",
+        "modelResponse": "Hello! I'm just a computer program, so I don't have feelings, but I'm here and ready to help you. How can I assist you today?",
+        "ms": 3078,
+        "s": 3.078
+    },
+    {
+        "model": "qwen/qwen-2.5-7b-instruct:free",
+        "modelResponse": "Hello! I'm just a computer program, so I don't have feelings or personal experiences. How can I assist you today?",
+        "ms": 831,
+        "s": 0.831
+    },
+    {
+        "model": "meta-llama/llama-3.2-3b-instruct:free",
+        "modelResponse": "Hello! I'm just a computer program, so I don't have feelings like humans do, but I'm functioning properly and ready to assist you. How can I help you today?",
+        "ms": 823,
+        "s": 0.823
+    },
+    {
+        "model": "meta-llama/llama-3.2-1b-instruct:free",
+        "modelResponse": "Hello! I'm just a language model, I don't have feelings or emotions like humans do, but I'm functioning properly and ready to help with any questions or tasks you may have. It's great to chat with you! How can I assist you today?",
+        "ms": 866,
+        "s": 0.866
+    },
+    {
+        "model": "meta-llama/llama-3.2-11b-vision-instruct:free",
+        "modelResponse": "I'm doing well, thank you for asking! I'm a helpful assistant, and I'm here to assist you with any questions or tasks you may have. How about you? Is there something I can help you with today?",
+        "ms": 1058,
+        "s": 1.058
+    },
+    {
+        "model": "qwen/qwen-2.5-72b-instruct:free",
+        "modelResponse": "Hello! I'm just a computer program, so I don't have feelings or emotions like humans do, but I'm functioning well and ready to assist you in any way I can. How are you today? Is there anything specific you would like to talk about or ask me?",
+        "ms": 2412,
+        "s": 2.412
+    },
+    {
+        "model": "qwen/qwen-2.5-vl-7b-instruct:free",
+        "modelResponse": "Hello! As an AI language model, I don't have feelings or emotions, but I'm here to help you with any questions or tasks you might have. How can I assist you today?",
+        "ms": 1188,
+        "s": 1.188
+    },
+    {
+        "model": "meta-llama/llama-3.1-405b:free",
+        "error": {}
+    },
+    {
+        "model": "meta-llama/llama-3.1-8b-instruct:free",
+        "error": {}
+    },
+    {
+        "model": "mistralai/mistral-nemo:free",
+        "error": {}
+    },
+    {
+        "model": "google/gemma-2-9b-it:free",
+        "error": {}
+    },
+    {
+        "model": "mistralai/mistral-7b-instruct:free",
+        "error": {}
+    }
+]

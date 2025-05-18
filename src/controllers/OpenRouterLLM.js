@@ -19,11 +19,16 @@ class OpenRouterLLM {
   async completion(messages = []){
     if(!Array.isArray(messages) || messages.length === 0) return 'Didn\'t receive any messages';
     
-    const completion = await this.LLMbase.chat.completions.create({
-      model: this.model,
-      messages,
-    });
-    return completion;
+    try{
+      const completion = await this.LLMbase.chat.completions.create({
+        model: this.model,
+        messages,
+      });
+      return completion;
+    }catch(error){
+      console.error('Error in completion: ', error);
+      throw new Error('Error in completion');
+    }
   }
 
   async getHistoryMessages(user){
@@ -37,8 +42,14 @@ class OpenRouterLLM {
     const historyMessages = await this.getHistoryMessages(user);
     messages = messages.concat(historyMessages);
     messages.push({ role: 'user', content: message });
-    const response = await this.completion(messages);
-    return response.choices[0].message.content;
+    try{
+      const response = await this.completion(messages);
+      return response.choices[0].message.content;
+
+    }catch(error){
+      console.error('Error in talk: ', error);
+      throw new Error('Error in talk');
+    }
   }
 }
 

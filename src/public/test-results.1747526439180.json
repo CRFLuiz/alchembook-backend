@@ -1,0 +1,303 @@
+[
+    {
+        "model": "meta-llama/llama-3.3-8b-instruct:free",
+        "error": {}
+    },
+    {
+        "model": "nousresearch/deephermes-3-mistral-24b-preview:free",
+        "error": {}
+    },
+    {
+        "model": "microsoft/phi-4-reasoning-plus:free",
+        "error": {}
+    },
+    {
+        "model": "microsoft/phi-4-reasoning:free",
+        "error": {}
+    },
+    {
+        "model": "qwen/qwen3-0.6b-04-28:free",
+        "error": {}
+    },
+    {
+        "model": "qwen/qwen3-1.7b:free",
+        "error": {}
+    },
+    {
+        "model": "qwen/qwen3-4b:free",
+        "error": {}
+    },
+    {
+        "model": "opengvlab/internvl3-14b:free",
+        "error": {}
+    },
+    {
+        "model": "deepseek/deepseek-prover-v2:free",
+        "error": {}
+    },
+    {
+        "model": "qwen/qwen3-30b-a3b:free",
+        "error": {}
+    },
+    {
+        "model": "qwen/qwen3-8b:free",
+        "error": {}
+    },
+    {
+        "model": "qwen/qwen3-14b:free",
+        "error": {}
+    },
+    {
+        "model": "qwen/qwen3-32b:free",
+        "error": {}
+    },
+    {
+        "model": "qwen/qwen3-235b-a22b:free",
+        "error": {}
+    },
+    {
+        "model": "tngtech/deepseek-r1t-chimera:free",
+        "error": {}
+    },
+    {
+        "model": "thudm/glm-z1-9b:free",
+        "error": {}
+    },
+    {
+        "model": "microsoft/mai-ds-r1:free",
+        "error": {}
+    },
+    {
+        "model": "thudm/glm-z1-32b:free",
+        "error": {}
+    },
+    {
+        "model": "thudm/glm-4-32b:free",
+        "error": {}
+    },
+    {
+        "model": "shisa-ai/shisa-v2-llama3.3-70b:free",
+        "error": {}
+    },
+    {
+        "model": "arliai/qwq-32b-arliai-rpr-v1:free",
+        "error": {}
+    },
+    {
+        "model": "agentica-org/deepcoder-14b-preview:free",
+        "error": {}
+    },
+    {
+        "model": "moonshotai/kimi-vl-a3b-thinking:free",
+        "error": {}
+    },
+    {
+        "model": "nvidia/llama-3.3-nemotron-super-49b-v1:free",
+        "error": {}
+    },
+    {
+        "model": "nvidia/llama-3.1-nemotron-ultra-253b-v1:free",
+        "error": {}
+    },
+    {
+        "model": "meta-llama/llama-4-maverick:free",
+        "error": {}
+    },
+    {
+        "model": "meta-llama/llama-4-scout:free",
+        "error": {}
+    },
+    {
+        "model": "deepseek/deepseek-v3-base:free",
+        "error": {}
+    },
+    {
+        "model": "bytedance-research/ui-tars-72b:free",
+        "error": {}
+    },
+    {
+        "model": "qwen/qwen2.5-vl-3b-instruct:free",
+        "error": {}
+    },
+    {
+        "model": "google/gemini-2.5-pro-exp-03-25",
+        "error": {
+            "status": 404,
+            "headers": {
+                "access-control-allow-origin": "*",
+                "cf-ray": "94171250be962f9c-PDX",
+                "connection": "keep-alive",
+                "content-encoding": "gzip",
+                "content-type": "application/json",
+                "date": "Sat, 17 May 2025 23:59:57 GMT",
+                "server": "cloudflare",
+                "transfer-encoding": "chunked",
+                "vary": "Accept-Encoding",
+                "x-clerk-auth-message": "Invalid JWT form. A JWT consists of three parts separated by dots. (reason=token-invalid, token-carrier=header)",
+                "x-clerk-auth-reason": "token-invalid",
+                "x-clerk-auth-status": "signed-out"
+            },
+            "error": {
+                "message": "No endpoints found for google/gemini-2.5-pro-exp-03-25.",
+                "code": 404
+            },
+            "code": 404
+        }
+    },
+    {
+        "model": "qwen/qwen2.5-vl-32b-instruct:free",
+        "error": {}
+    },
+    {
+        "model": "deepseek/deepseek-chat-v3-0324:free",
+        "error": {}
+    },
+    {
+        "model": "featherless/qwerky-72b:free",
+        "error": {}
+    },
+    {
+        "model": "mistralai/mistral-small-3.1-24b-instruct:free",
+        "error": {}
+    },
+    {
+        "model": "open-r1/olympiccoder-32b:free",
+        "error": {}
+    },
+    {
+        "model": "google/gemma-3-1b-it:free",
+        "error": {}
+    },
+    {
+        "model": "google/gemma-3-4b-it:free",
+        "error": {}
+    },
+    {
+        "model": "google/gemma-3-12b-it:free",
+        "error": {}
+    },
+    {
+        "model": "rekaai/reka-flash-3:free",
+        "error": {}
+    },
+    {
+        "model": "google/gemma-3-27b-it:free",
+        "error": {}
+    },
+    {
+        "model": "deepseek/deepseek-r1-zero:free",
+        "error": {}
+    },
+    {
+        "model": "qwen/qwq-32b:free",
+        "error": {}
+    },
+    {
+        "model": "moonshotai/moonlight-16b-a3b-instruct:free",
+        "error": {}
+    },
+    {
+        "model": "nousresearch/deephermes-3-llama-3-8b-preview:free",
+        "error": {}
+    },
+    {
+        "model": "cognitivecomputations/dolphin3.0-r1-mistral-24b:free",
+        "error": {}
+    },
+    {
+        "model": "cognitivecomputations/dolphin3.0-mistral-24b:free",
+        "error": {}
+    },
+    {
+        "model": "qwen/qwen2.5-vl-72b-instruct:free",
+        "modelResponse": "Olá! Fico feliz em ajudar você na criação do seu ebook. Aqui estão algumas etapas e dicas que podem ser úteis:\n\n1. Planejamento:\n   - Defina o tema e o público-alvo\n   - Crie um esboço ou estrutura do conteúdo\n   - Estabeleça objetivos claros para o ebook\n\n2. Escrita:\n   - Escreva o conteúdo de forma clara e concisa\n   - Use subtítulos e parágrafos curtos para melhorar a legibilidade\n   - Inclua exemplos, citações e imagens para enriquecer o texto\n\n3. Design e formatação:\n   - Escolha uma fonte legível e tamanho adequado\n   - Use imagens e gráficos relevantes\n   - Organize o conteúdo com capítulos e seções\n\n4. Edição e revisão:\n   - Revise o texto para erros gramaticais e de estilo\n   - Considere contratar um editor profissional\n\n5. Formatação:\n   - Escolha um layout atraente e fácil de ler\n   - Adicione elementos visuais como gráficos e infográficos\n\n6. Capa e layout:\n   - Crie uma capa atraente\n   - Mantenha um layout consistente\n\n7. Publicação:\n   - Escolha uma plataforma de publicação\n   - Adicione metadados e descrição\n\n8. Marketing:\n   - Promova o ebook em redes sociais e blogs\n\n9. Feedback e atualizações:\n   - Peça feedback dos leitores\n   - Atualize o conteúdo conforme necessário\n\nLembre-se de que a qualidade do conteúdo é o mais importante. Boa sorte com o seu ebook!",
+        "ms": 14157,
+        "s": 14.157
+    },
+    {
+        "model": "mistralai/mistral-small-24b-instruct-2501:free",
+        "modelResponse": "Olá! Ficaríamos felizes em ajudar você na criação do seu ebook. Aqui estão algumas etapas e dicas para guiá-lo no processo:\n\n",
+        "ms": 1083,
+        "s": 1.083
+    },
+    {
+        "model": "deepseek/deepseek-r1-distill-qwen-32b:free",
+        "modelResponse": "Claro! Estou à disposição para ajudá-lo com cada etapa da criação do seu e-book. Aqui está uma visão geral das seis etapas básicas que você pode seguir:\n\n### 1. **Definição do Tema**\n- **Identificar o nicho:** Escolha um tema que tenha interesse e que você tenha conhecimento suficiente para explorar em profundidade.\n- **Analisar a audiência:** Quem é o público-alvo do seu e-book? Qual é a idade, gênero, interesses, necessidades e dores deles?\n- **Definir o objetivo:** O que você quer alcançar com o e-book? Informar, educar, entreter, vender um produto ou serviço?\n\n### 2. **Pesquisa e Organização do Conteúdo**\n- **Coletar informações:** Use livros, artigos, sites, entrevistas, etc., para reunir informações confiáveis sobre o seu tema.\n- **Organizar as ideias:** Faça um outline detalhado do conteúdo. Dividir em capítulos ou seções lógicas.\n- **Definir a estrutura:** Introdução, corpo (capítulos), conclusão, e outros elementos como índice, sumário ou apêndices, se necessário.\n\n### 3. **Escrita do Conteúdo**\n- **Comece com um rascunho:** Escreva tudo que sabe sobre o tema, sem se preocupar muito com a qualidade inicial.\n- **Desenvolver cada seção:** Expanda cada ponto do outline com conteúdo detalhado e claro.\n- **Manter o tom de voz:** Mantenha o tom de voz consistente com o objetivo do e-book (informal, formal, educativo, entretenimento, etc.).\n\n### 4. **Design e Formatação**\n- **Escolha uma ferramenta de edição:** Use programas como Word, Google Docs, Canva, Scrivener ou LaTeX.\n- **Incluir elementos visuais:** Gráficos, tabelas, imagens e ilustrações podem tornar o e-book mais atraente.\n- **Formatação consistente:** Mantenha o tamanho de fonte, espaçamento, recuos, etc., uniformes em todo o livro.\n\n### 5. **Revisão e Edição**\n- **Revisar o conteúdo:** Leia e revise o texto para corrigir erros gramaticais, de ortografia e de pontuação.\n- **Editar:** Melhore a clareza, concisão e fluência do texto.\n- **Revisão final:** Faça uma revisão final para garantir que todas as partes estejam alinhadas com o objetivo original.\n\n### 6. **Publicação e Divulgação**\n- **Escolher a plataforma de publicação:** Amazon Kindle, Smashwords, Apple Books, Google Play Books, etc.\n- **Criar a capa:** Uma capa atraente é crucial para atrair leitores.\n- **Marketing:** Promoção do e-book em redes sociais, blogs, sites, e-mails e outras plataformas.\n\nSe você precisar ajuda em qualquer uma dessas etapas ou quiser mais detalhes sobre algo específico, basta me perguntar! 😊",
+        "ms": 9599,
+        "s": 9.599
+    },
+    {
+        "model": "deepseek/deepseek-r1-distill-qwen-14b:free",
+        "modelResponse": "Olá! Claro que posso ajudar com a criação de seu ebook. Vamos ver como eu posso ser útil:\n\n1. **Esqueleto ou estrutura do ebook**: Se você está começando, posso ajudar a planejar a estrutura do seu livro, desde a introdução até o epílogo, garantindo que todas as ideias principais estejam bem organizadas.\n\n2. **Ajuda na escrita**: Se você está preso na写ção, posso oferecer sugestões, inspiração ou até mesmo exemplos para que você continue. Também posso ajudar a melhorar o texto já escrito, verificando coesão, clareza e estilo.\n\n3. **Formatação**: Se você já tem o conteúdo pronto, posso dar dicas sobre como formatar seu ebook de forma profissional, seja em PDF, Kindle ou outro formato. Posso até mesmo guiá-lo através de ferramentas de edição e design.\n\n4. **Inclusão de imagens e multimídia**: Se você pretende incluir imagens, infográficos ou outros elementos visuais, posso ajudar a escolher a melhor forma de incorporá-los e garantir que estejam de boa qualidade.\n\n5. **Revisão e edição**: Posso revisar seu texto para verificar erros de gramática, falta de coesão ou fator de engajamento do leitor.\n\n6. **Marketing e planejamento**: Se você já está pronto para publicar, posso ajudar a planejar a divulgação do seu ebook, dari dicas de SEO, redes sociais e estratégias de marketing digital.\n\nEstas são algumas das formas como posso ajudar. Qual dessas áreas você está interessado em explorar primeiro? Ou você tem alguma outra necessidade específica?",
+        "ms": 11179,
+        "s": 11.179
+    },
+    {
+        "model": "deepseek/deepseek-r1-distill-llama-70b:free",
+        "error": {}
+    },
+    {
+        "model": "deepseek/deepseek-r1:free",
+        "error": {}
+    },
+    {
+        "model": "deepseek/deepseek-chat:free",
+        "error": {}
+    },
+    {
+        "model": "google/gemini-2.0-flash-exp:free",
+        "error": {}
+    },
+    {
+        "model": "meta-llama/llama-3.3-70b-instruct:free",
+        "error": {}
+    },
+    {
+        "model": "qwen/qwen-2.5-coder-32b-instruct:free",
+        "error": {}
+    },
+    {
+        "model": "qwen/qwen-2.5-7b-instruct:free",
+        "error": {}
+    },
+    {
+        "model": "meta-llama/llama-3.2-3b-instruct:free",
+        "error": {}
+    },
+    {
+        "model": "meta-llama/llama-3.2-1b-instruct:free",
+        "error": {}
+    },
+    {
+        "model": "meta-llama/llama-3.2-11b-vision-instruct:free",
+        "error": {}
+    },
+    {
+        "model": "qwen/qwen-2.5-72b-instruct:free",
+        "error": {}
+    },
+    {
+        "model": "qwen/qwen-2.5-vl-7b-instruct:free",
+        "error": {}
+    },
+    {
+        "model": "meta-llama/llama-3.1-405b:free",
+        "error": {}
+    },
+    {
+        "model": "meta-llama/llama-3.1-8b-instruct:free",
+        "error": {}
+    },
+    {
+        "model": "mistralai/mistral-nemo:free",
+        "error": {}
+    },
+    {
+        "model": "google/gemma-2-9b-it:free",
+        "error": {}
+    },
+    {
+        "model": "mistralai/mistral-7b-instruct:free",
+        "error": {}
+    }
+]

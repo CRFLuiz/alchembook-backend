@@ -1,0 +1,308 @@
+[
+    {
+        "model": "meta-llama/llama-3.3-8b-instruct:free",
+        "error": {}
+    },
+    {
+        "model": "nousresearch/deephermes-3-mistral-24b-preview:free",
+        "error": {}
+    },
+    {
+        "model": "microsoft/phi-4-reasoning-plus:free",
+        "error": {}
+    },
+    {
+        "model": "microsoft/phi-4-reasoning:free",
+        "error": {}
+    },
+    {
+        "model": "qwen/qwen3-0.6b-04-28:free",
+        "error": {}
+    },
+    {
+        "model": "qwen/qwen3-1.7b:free",
+        "error": {}
+    },
+    {
+        "model": "qwen/qwen3-4b:free",
+        "error": {}
+    },
+    {
+        "model": "opengvlab/internvl3-14b:free",
+        "error": {}
+    },
+    {
+        "model": "deepseek/deepseek-prover-v2:free",
+        "error": {}
+    },
+    {
+        "model": "qwen/qwen3-30b-a3b:free",
+        "error": {}
+    },
+    {
+        "model": "qwen/qwen3-8b:free",
+        "error": {}
+    },
+    {
+        "model": "qwen/qwen3-14b:free",
+        "error": {}
+    },
+    {
+        "model": "qwen/qwen3-32b:free",
+        "error": {}
+    },
+    {
+        "model": "qwen/qwen3-235b-a22b:free",
+        "error": {}
+    },
+    {
+        "model": "tngtech/deepseek-r1t-chimera:free",
+        "error": {}
+    },
+    {
+        "model": "thudm/glm-z1-9b:free",
+        "error": {}
+    },
+    {
+        "model": "microsoft/mai-ds-r1:free",
+        "error": {}
+    },
+    {
+        "model": "thudm/glm-z1-32b:free",
+        "error": {}
+    },
+    {
+        "model": "thudm/glm-4-32b:free",
+        "error": {}
+    },
+    {
+        "model": "shisa-ai/shisa-v2-llama3.3-70b:free",
+        "error": {}
+    },
+    {
+        "model": "arliai/qwq-32b-arliai-rpr-v1:free",
+        "error": {}
+    },
+    {
+        "model": "agentica-org/deepcoder-14b-preview:free",
+        "error": {}
+    },
+    {
+        "model": "moonshotai/kimi-vl-a3b-thinking:free",
+        "error": {}
+    },
+    {
+        "model": "nvidia/llama-3.3-nemotron-super-49b-v1:free",
+        "error": {}
+    },
+    {
+        "model": "nvidia/llama-3.1-nemotron-ultra-253b-v1:free",
+        "error": {}
+    },
+    {
+        "model": "meta-llama/llama-4-maverick:free",
+        "error": {}
+    },
+    {
+        "model": "meta-llama/llama-4-scout:free",
+        "error": {}
+    },
+    {
+        "model": "deepseek/deepseek-v3-base:free",
+        "error": {}
+    },
+    {
+        "model": "bytedance-research/ui-tars-72b:free",
+        "error": {}
+    },
+    {
+        "model": "qwen/qwen2.5-vl-3b-instruct:free",
+        "error": {}
+    },
+    {
+        "model": "google/gemini-2.5-pro-exp-03-25",
+        "error": {}
+    },
+    {
+        "model": "qwen/qwen2.5-vl-32b-instruct:free",
+        "error": {}
+    },
+    {
+        "model": "deepseek/deepseek-chat-v3-0324:free",
+        "error": {}
+    },
+    {
+        "model": "featherless/qwerky-72b:free",
+        "error": {}
+    },
+    {
+        "model": "mistralai/mistral-small-3.1-24b-instruct:free",
+        "error": {}
+    },
+    {
+        "model": "open-r1/olympiccoder-32b:free",
+        "error": {}
+    },
+    {
+        "model": "google/gemma-3-1b-it:free",
+        "error": {}
+    },
+    {
+        "model": "google/gemma-3-4b-it:free",
+        "error": {}
+    },
+    {
+        "model": "google/gemma-3-12b-it:free",
+        "error": {}
+    },
+    {
+        "model": "rekaai/reka-flash-3:free",
+        "error": {}
+    },
+    {
+        "model": "google/gemma-3-27b-it:free",
+        "error": {}
+    },
+    {
+        "model": "deepseek/deepseek-r1-zero:free",
+        "error": {}
+    },
+    {
+        "model": "qwen/qwq-32b:free",
+        "error": {}
+    },
+    {
+        "model": "moonshotai/moonlight-16b-a3b-instruct:free",
+        "error": {}
+    },
+    {
+        "model": "nousresearch/deephermes-3-llama-3-8b-preview:free",
+        "error": {}
+    },
+    {
+        "model": "cognitivecomputations/dolphin3.0-r1-mistral-24b:free",
+        "error": {}
+    },
+    {
+        "model": "cognitivecomputations/dolphin3.0-mistral-24b:free",
+        "error": {}
+    },
+    {
+        "model": "qwen/qwen2.5-vl-72b-instruct:free",
+        "error": {}
+    },
+    {
+        "model": "mistralai/mistral-small-24b-instruct-2501:free",
+        "error": {}
+    },
+    {
+        "model": "deepseek/deepseek-r1-distill-qwen-32b:free",
+        "error": {}
+    },
+    {
+        "model": "deepseek/deepseek-r1-distill-qwen-14b:free",
+        "modelResponse": "Claro! Vamos organizar os capítulos para cada ebook de forma clara e estruturada, para garantir que os leitores saiam com um conhecimento profundo e prático do mundo do surf.\n\n### Ebook 1: Para os Fãs do Surf\nEste ebook tem como objetivo proporcionar aos fãs uma visão ampla do mundo do surf, seu cenário competitivo e a cultura envolvente.\n\n**Capítulos:**\n\n1. **Introdução ao Surf: Histórias e Cultura**\n   - Breve história do surf e como ele se tornou popular mundialmente.\n   - A cultura do surf: mais do que esporte, uma生活方式.\n\n2. **Os Princípios Básicos do Surf**\n   - Tipos de ondas e quebras de mar.\n   - Principais equipamentos: surfboards, pranchas, wipros, coletes e flutuadores.\n   - Noções básicas de como funcionar no surf, para entender melhor aqueles vídeos e fotos que vemos.\n\n3. **Competições de Surf: Como Funcionam**\n   - Tipos de competições (longboard, shortboard, big wave, etc.).\n   - Sistema de pontuação e como avaliar as manobras.\n   - Entendendo a tour Mundial de Surfe (World Surf League) e as etapas.\n\n4. **Os Atletas Nacionais: Histórias e Conquistas**\n   - Perfil de surfistas brasileiros de destaque (exemplos: Itaú, Guga, Sil Atlas, etc.).\n   - Histórico de conquistas no surf nacional e internacional.\n   - Entrevistas ou depoimentos: como eles começaram, superaram desafios e se mantêm inspiradores.\n\n5. **A Cena do Surf no Brasil**\n   - os principais spots de surfe no país (Bondi, Búzios, Florianópolis, etc.).\n   - Eventos e campeonatos locais e nacionais.\n   - Contribuição do surf para o turismo e economia local.\n\n6. ** Surf como Lazer e Saúde**\n   - Benefícios físicos e mentais do surf.\n   - Comunidade do surf: solidariedade, respeito e amizade.\n\n7. **O lado Místico do Surf**\n   - Mitos e lendas do surf em diferentes culturas.\n   - A conexão do surf com a natureza e espiritualidade.\n\n8. **Surf na Mídia**\n   - Filmes de surf icônicos e como eles influenciaram a cultura pop.\n   - Principais revistas e sites de surf que você deve acompanhar.\n\n### Ebook 2: Para os Surfistas\nEste ebook é voltado para quem já surfa ou quer começar, oferecendo dicas, técnicas e manobras para aprimorar suas habilidades.\n\n**Capítulos:**\n\n1. **Introdução: Como Começar no Surf**\n   - Primeiros passos: escolher a prancha certa, conhecer os spots adequados.\n   - Dicas para iniciantes: posish, como pegar a onda, equilíbrio e postura.\n\n2. **Conhecendo as Ondas: Tipos e Condições**\n   - Tipos de ondas: lefts, rights, point breaks, beach breaks, etc.\n   - Como interpretar as condições marinhas (maré, vento, temperatura).\n   - Segurança em alto-mar: o que levar, sinais de perigo.\n\n3. **Técnicas Básicas de Surf**\n   - Paddling eficiente: como se locomover na água com pouco esforço.\n   - A arte de pop up: sair da prancha na hora certa.\n   - Timing e leitura das ondas: identificar quando e onde pegar a onda.\n\n4. **Manobras Básicas: A Fundação do Surfe**\n   - Primeiras manobras: bottom turn, cutback, rail ride.\n   - Dicas para praticar em segurança e aprimorar a técnica.\n   - Exercícios e drills para melhorar a fluidez.\n\n5. **Manobras Avançadas: Esse é o X que te Derruba**\n   - Revers, snaps, inverts, floater, etc.\n   - Como dominar as manobras mais complexas sem arriscar demais.\n   - Dicas de treino em岸 (sacar de prancha, simulações, etc.).\n\n6. **Aprimorando sua Habilidade: Mindset e Treino**\n   - Perseverança e mindset: como superar obstáculos e manter a motivação.\n   - A importância do treino físico e mental para o surf.\n   - Planejamento de treino:强度, frequência e variedade.\n\n7. **Surfando com Consciência Ambiental**\n   - Responsabilidade ambiental: como proteger os recifes e a natureza.\n   - Descarte correto de equipamentos e impacto do turismo no surf.\n   - Respeito à natureza e à comunidade local.\n\n8. **Entrevistas e Dicas de Proffissionais**\n   - Converse com surfistas profissionais: as suas dicas, rotinas e mantras.\n   - Conheça os treinadores e coaches que ajudam aperfeiçoar a técnica.\n\n9. **Cuidados Pós-Surf: Saúde e Segurança**\n   - Cuidados com os machucados e como tratá-los em casa.\n   - Importância de hidratação e nutrição para performar bem no surf.\n   - Saúde mental: como lidar com frustrações e derrotas no esporte.\n\n10. **Surfando em grupo: Dinâmica e Segurança**\n    - Como surfar em grupo sem criar problemas.\n    - Respeitar o espaço alheio e as regras do mar.\n    - O que fazer em caso de conflitos ou emergências.\n\nEspero que essas estruturas ajudem você a organizar os ebooks de forma clara e informativa. Vai ser um material super útil para quem ama o surf ou está começando nessa jornada!",
+        "ms": 25867,
+        "s": 25.867
+    },
+    {
+        "model": "deepseek/deepseek-r1-distill-llama-70b:free",
+        "modelResponse": "**eBook 1: Surfing for Fans**\n\n1. **Introduction to Surfing**\n   - Brief History and Evolution\n   - Surf Culture and Lifestyle Overview\n\n2. **Types of Surfing**\n   - Shortboard, Longboard, and Alternative Styles\n   - Local Surf Etiquette and Its Importance\n\n3. **Competitions and Pro Surfing**\n   - How Competitions Work\n   - Key International and Brazilian Surfers\n   - Emerging Talent and Their Stories\n\n4. **Surf Culture and Lifestyle**\n   - Surf Music and Art\n   - Major Surfing Personalities and Their Impact\n   - Environmental Activism in the Surf Community\n\n5. **Watching and Appreciating Competitions**\n   - Understanding Judging Criteria\n   - How Fans Can Engage with Events\n\n**Interviews:** Include quotes from notable surfers to add authentic insights.\n\n**Visuals:** Use photos and diagrams to highlight surfers and key moments in competitions.\n\n---\n\n**eBook 2: Surfing for Practitioners**\n\n1. **Getting Started**\n   - Choosing the Right Equipment\n   - Understanding Wave Conditions\n\n2. **Basic Techniques**\n   - Positioning in the Lineup\n   - Paddling, Standing, and Balancing\n\n3. **Intermediate Skills**\n   - Trimming and Turning Techniques\n   - Reading Waves and Positioning\n\n4. **Advanced Maneuvers**\n   - Cutbacks, Floaters, and other Moves\n   - Common Mistakes to Avoid\n\n5. **Physical and Mental Conditioning**\n   - Surf-Specific Workouts\n   - Mental Strategies for Improvement\n\n6. **Staying Safe and Healthy**\n   - Overcoming Fears and Challenges\n   - Injury Prevention and Recovery\n\n7. **Surf Travel and Environmental Care**\n   - Choosing Destinations Based on Skill Level\n   - Eco-Friendly Surfing Practices\n\n**Step-by-Step Guides:** Provide clear, instructional content with visuals.\n\n**Visuals:** Include diagrams for techniques and photos of surf spots.\n\n---\n\nBoth eBooks are structured to flow logically, with each chapter building on the previous one, ensuring comprehensive coverage tailored to each audience. The fan book offers depth and storytelling, while the technical book provides clear, actionable advice. Visuals and additional sections like interviews and travel tips enhance the reader experience.",
+        "ms": 28009,
+        "s": 28.009
+    },
+    {
+        "model": "deepseek/deepseek-r1:free",
+        "modelResponse": "**Ebook 1: \"Surf para Fãs: Entendendo o Universo das Ondas\"**  \n*(Para entusiastas que querem mergulhar na cultura do surf)*  \n\n**Capítulos e Conteúdos:**  \n1. **Introdução ao Surf**  \n   - Origem e história do surf (Polinésia, Hawai'i, evolução moderna).  \n   - A cultura do surf: música, moda, filmes e influência na sociedade.  \n\n2. **Glossário do Surfista**  \n   - Termos técnicos (ex.: \"drop\", \"tubo\", \"hang ten\", \"offshore\").  \n   - Gírias comuns e expressões locais.  \n\n3. **Equipamentos Básicos**  \n   - Tipos de pranchas (shortboard, longboard, fish, etc.) e suas funções.  \n   - Acessórios (parafina, leash, roupa de neoprene).  \n\n4. **Entendendo as Ondas**  \n   - Como as ondas se formam (vento, swell, fundo do mar).  \n   - Escala de medição (pés vs. metros, tipos de maré).  \n\n5. **Campeonatos de Surf**  \n   - Estrutura do Circuito Mundial (WSL): etapas, pontuação, critérios de julgamento.  \n   - Formatos de baterias e \"Heat\" (como os surfistas são eliminados?).  \n\n6. **Astros do Surf Nacional**  \n   - Perfis dos principais atletas brasileiros (ex.: Gabriel Medina, Ítalo Ferreira, Tatiana Weston-Webb).  \n   - Conquistas históricas e curiosidades sobre suas carreiras.  \n\n7. **Eventos Épicos**  \n   - Campeonatos icônicos (Pipeline, Teahupo’o) e o que os torna especiais.  \n   - Olimpíadas: como o surf entrou nos jogos e perspectiva para o futuro.  \n\n8. **Como Apoiar o Surf**  \n   - Onde assistir às competições (transmissões, apps).  \n   - Dicas para participar de festivais e eventos locais.  \n\n**Extras:**  \n- Linha do tempo de marcos históricos do surf.  \n- Quiz: \"Você é um expert em surf?\" (perguntas sobre regras e curiosidades).  \n- Lista de filmes e documentários recomendados.  \n\n---  \n\n**Ebook 2: \"Manual do Surfista: Técnicas, Manobras e Evolução\"**  \n*(Para surfistas que querem aprimorar suas habilidades)*  \n\n**Capítulos e Conteúdos:**  \n1. **Fundamentos do Surf Prático**  \n   - Como escolher a prancha certa para seu estilo e nível.  \n   - Leitura de forecasts: apps e sinais naturais para prever boas ondas.  \n\n2. **Técnicas Avançadas de Remada e Posicionamento**  \n   - Exercícios para ganhar velocidade na remada.  \n   - Posicionamento na prancha para equilíbrio e eficiência.  \n\n3. **Manobras Passo a Passo**  \n   - Detalhes de execução: bottom turn, cutback, aéreo, floater, tubo.  \n   - Vídeo-análise: erros comuns e como corrigi-los.  \n\n4. **Treino Físico e Preparação**  \n   - Exercícios específicos para fortalecer core, pernas e resistência.  \n   - Alongamento e recuperação muscular pós-surf.  \n\n5. **Surf em Diferentes Condições**  \n   - Estratégias para ondas grandes vs. pequenas, vento onshore/offshore.  \n   - Surf em reef breaks, beach breaks e point breaks.  \n\n6. **Segurança e Respeito ao Mar**  \n   - Como evitar lesões (dicas para quedas, proteção da coluna).  \n   - Etiqueta no line-up e cuidados com o meio ambiente.  \n\n7. **Mentalidade Competitiva**  \n   - Como focar em baterias e gerenciar a pressão.  \n   - Diário de treino: registrar progresso e metas.  \n\n8. **Surf no Brasil**  \n   - Guia de melhores picos por região (Nordeste, Sul, Sudeste).  \n   - Como viajar com pranchas e escolher destinations acessíveis.  \n\n**Extras:**  \n- Checklist de equipamentos para viagens.  \n- Tutorial: reparos básicos em pranchas (arruela, quicksilver).  \n- Planilha de treino semanal (físico + aquático).  \n\n---  \n\n**Dicas Gerais:**  \n- Use fotos e ilustrações para explicar manobras e cenários.  \n- Inclua depoimentos de atletas ou coaches em ambos os ebooks.  \n- Adicione QR codes com links para vídeos explicativos (ex.: manobras em câmera lenta).  \n\nEspero que essa estrutura ajude! 🌊",
+        "ms": 22828,
+        "s": 22.828
+    },
+    {
+        "model": "deepseek/deepseek-chat:free",
+        "modelResponse": "Vamos criar dois ebooks bem estruturados, focando nos dois públicos diferentes que você mencionou. Aqui estão os capítulos e assuntos que sugerimos para cada um:\n\n---\n\n### **Ebook 1: \"O Mundo do Surf - Guia Completo para Fãs\"**\nEste livro é para os fajultats que querem entender tudo sobre o surf, desde os termos básicos até como funcionam os campeonatos e quem são os atletas mais destacados.\n\n#### Capítulos e Assuntos:\n1. **Introdução ao Surf**  \n   - O que é o surf?  \n   - Breve história do esporte.  \n   - Por que o surf é tão fascinante?  \n\n2. **Terminologia do Surf**  \n   - Glossário de termos básicos (onda, prancha, swell, leash, etc.).  \n   - Expressões comuns (tubo, cutback, aéreo, etc.).  \n   - O que significa \"surfar na parede\"?  \n\n3. **Equipamentos do Surf**  \n   - Tipos de pranchas (shortboard, longboard, fish, etc.).  \n   - O que é o leash e para que serve?  \n   - Como escolher a roupa de neoprene ideal.  \n\n4. **Como Funcionam os Campeonatos de Surf**  \n   - Sistema de pontuação (notas dos jurados).  \n   - O que é o WSL (World Surf League)?  \n   - Etapas de uma competição (heat, eliminatórias, semifinais, finais).  \n   - O que é o \"Priority\" (prioridade)?  \n\n5. **Atletas Nacionais de Destaque**  \n   - Perfil dos principais surfistas do Brasil (ex: Ítalo Ferreira, Gabriel Medina, Tatiana Weston-Webb).  \n   - Conquistas históricas do surf brasileiro.  \n   - Inspirações e curiosidades sobre os atletas.  \n\n6. **Locais de Surf no Brasil e no Mundo**  \n   - Conheça os melhores spots de surf do Brasil (ex: Fernando de Noronha, Itacaré, Florianópolis).  \n   - Destinos internacionais famosos (Havaí, Austrália, Bali).  \n   - O que torna um lugar ideal para o surf?  \n\n7. **Dicas para Torcer e Acompanhar Competições**  \n   - Como assistir ao vivo (streaming, TV).  \n   - O que observar durante uma competição.  \n   - Curiosidades sobre os comentaristas e jurados.  \n\n8. **Curiosidades do Surf**  \n   - O maior tubo já surfado.  \n   - Recordes impressionantes.  \n   - Surfistas lendários que marcaram a história.  \n\n---\n\n### **Ebook 2: \"Surf Avançado - Técnicas e Manobras para Surfar Melhor\"**\nEste livro é para quem já pratica o surf e quer aprimorar suas habilidades, aprender novas manobras e entender técnicas avançadas.\n\n#### Capítulos e Assuntos:\n1. **Introdução ao Surf Avançado**  \n   - O que diferencia um surfista iniciante de um avançado?  \n   - A importância da dedicação e prática.  \n\n2. **Fundamentos do Surf**  \n   - Posicionamento na prancha (pop-up).  \n   - Equilíbrio e postura.  \n   - Leitura das ondas e escolha do ponto ideal.  \n\n3. **Manobras Básicas**  \n   - Bottom turn (virada na base da onda).  \n   - Cutback (retorno à parte poderosa da onda).  \n   - Trimming (deslizar sobre a onda).  \n\n4. **Manobras Intermediárias**  \n   - Floater (deslizar sobre a espuma da onda).  \n   - Reentry (voltar à parede da onda).  \n   - Snap (virada rápida no topo da onda).  \n\n5. **Manobras Avançadas**  \n   - Aéreos (manobras no ar).  \n   - Tube ride (surfar dentro do tubo).  \n   - 360 (rotação completa sobre a onda).  \n\n6. **Técnicas de Leitura do Mar**  \n   - Como identificar o swell ideal.  \n   - O que é o período e a direção das ondas?  \n   - Como escolher o melhor horário para surfar.  \n\n7. **Preparação Física e Mental**  \n   - Exercícios de força e flexibilidade para surfistas.  \n   - Como lidar com o medo de ondas grandes.  \n   - Dicas para manter o foco durante uma sessão.  \n\n8. **Equipamentos para Surfar Melhor**  \n   - Como escolher a prancha certa para seu nível.  \n   - O que é o rocker e como ele influencia o desempenho?  \n   - Dicas para manter seu equipamento em perfeito estado.  \n\n9. **Erros Comuns e Como Corrigi-los**  \n   - Falhas no pop-up.  \n   - Perda de equilíbrio em manobras.  \n   - Dificuldade para pegar ondas maiores.  \n\n10. **Inspiração para Continuar Melhorando**  \n    - Vídeos e filmes recomendados sobre surf.  \n    - Surfistas profissionais que inspiraram gerações.  \n    - Como definir metas e evoluir no surf.  \n\n---\n\nEssa estrutura cobre todos os aspectos que você deseja abordar nos dois ebooks, garantindo que cada público tenha um material completo e útil. Se precisar de mais detalhes ou ajustes, é só avisar! 🏄‍♂️",
+        "ms": 20651,
+        "s": 20.651
+    },
+    {
+        "model": "google/gemini-2.0-flash-exp:free",
+        "error": {}
+    },
+    {
+        "model": "meta-llama/llama-3.3-70b-instruct:free",
+        "modelResponse": "Segue aqui uma estrutura para cada um dos ebooks:\n\n**Ebook para Fãs de Surf:**\n\n1. **Introdução ao Mundo do Surf**\n * História do surf\n * Evolução do esporte\n * Importância do surf na cultura popular\n2. **Conhecendo os Termos do Surf**\n * Glossário de termos comuns\n * Explicação de conceitos como \"tubo\", \"maniobra\", \" wipeout\", etc.\n3. **Campeonatos e Competições**\n * Visão geral dos principais campeonatos de surf (WSL, ISA, etc.)\n * Formato de competição e sistema de pontuação\n * História dos principais campeonatos e vencedores\n4. **Atletas Nacionais de Surf**\n * Perfis de atletas nacionais de surf de destaque\n * Histórias de sucesso e conquistas\n * Entrevistas ou depoimentos de atletas nacionais\n5. **A Cultura do Surf**\n * A comunidade surfista e sua importância\n * Eventos e festivais de surf\n * A influência do surf na música, arte e moda\n6. **Como Acompanhar o Surf**\n * Guia para assistir competições de surf\n * Análise de desempenho e estratégias de competição\n * Dicas para entender as regras e o juízo dos competidores\n\n**Ebook para Surfeadores:**\n\n1. **Técnicas Básicas de Surf**\n * Posicionamento na prancha\n * Pego e levantamento\n * Balance e estabilidade\n2. **Manobras Básicas e Avançadas**\n * Deslizamento e curvas\n * Manobras aéreas e 360\n * Dicas para melhorar a performance\n3. **Leitura de Ondas e Condições**\n * Entendendo as ondas e suas características\n * Previsão do tempo e condições de surf\n * Escolha do local e hora certa para surfar\n4. **Treinamento e Condicionamento Físico**\n * Exercícios para melhorar a força, flexibilidade e resistência\n * Dicas para evitar lesões e manter a forma física\n * Nutrição e alimentação para surfeadores\n5. **Equipamento e Manutenção**\n * Escolha da prancha certa para o seu nível e estilo\n * Cuidado e manutenção do equipamento\n * Dicas para viajar com equipamento de surf\n6. **Dicas e Segredos de Surfeadores Experientes**\n * Entrevistas ou depoimentos de surfeadores experientes\n * Dicas para melhorar a performance e superar obstáculos\n * Histórias de sucesso e fracasso no surf\n\nEssa estrutura deve dar uma boa base para você criar dois ebooks interessantes e úteis para os fãs de surf e surfeadores. Boa sorte com seu projeto!",
+        "ms": 23140,
+        "s": 23.14
+    },
+    {
+        "model": "qwen/qwen-2.5-coder-32b-instruct:free",
+        "modelResponse": "Claro, posso ajudar você a estruturar os dois e-books. Aqui está uma sugestão:\n\nE-Book para Fãs de Surf:\n\n1. Introdução ao Mundo do Surf\n   1.1. História do Surf\n   1.2. Evolução das pranchas e equipamentos\n\n2. Glossário de Termos do Surf\n   2.1. Movimentos e posições fundamentais\n   2.2. Tipos de ondas (porolítica, direta, recíproca, etc)\n   2.3. Terminologia de competição (jogadas, pontos, etc.)\n   2.4. Outros termos relevantes (fretes, barreiras, etc.)\n\n3. Campeonatos de Surf: O Que Sabe-se?\n   3.1. Estrutura da competição surf\n   3.2. Categorias principais: ASP/WQS, WSL, etc.\n   3.3. Como ocorrem os eliminatórios\n   3.4. Calendário anual de eventos\n\n4. Surf no Brasil: Evolução e Representantes\n   4.1. História do surf no Brasil\n   4.2. Pranchas brasileiras famosas\n   4.3. Atletas destaque: biografias e conquistas\n\n5. Surf e Mídia\n   5.1. Revistas e portais dedicados ao surf\n   5.2. Documentários e produções audiovisuais\n   5.3. Redes Sociais e impacto no mundo do surf\n\nE-Book para Quem Surfa:\n\n1. Fundamentos Iniciais\n   1.1. Escolha da prancha e equipamento adequado\n   1.2. Princípios básicos de surf\n\n2. Manobras\n   2.1. Paddles, pop-up, drop-in\n   2.2. Cuts\n   2.3. Slides e florescemientos\n   2.4. Flicks, snaps, carves, tailslides etc.\n\n3. Aulas Práticas e Treino\n   3.1. Programa de treinamento para iniciantes\n   3.2. Exercícios físicos importantes para surfar bem\n   3.3. Técnicas para melhorar as habilidades\n\n4. Pranchas, Equipamentos e Manutenção\n   4.1. Como escolher boa prancha\n   4.2. Equipamentos necessários para surfar com segurança\n   4.3. Dicas de manutenção para prancha e outros equipamentos\n\n5. Precauções e Segurança\n   5.1. Conscientização sobre respeito às ondas e aos outros surfistas\n   5.2. Precauções e procedimentos de emergência\n\n6. Desafios e Evolução do Habilidade como Surfista\n   6.1. Superando medos e adversidades\n   6.2. Melhorando constantemente o jogo do surfista\n   6.3. Estilos únicos e personalidade no surf\n\nEspero que essas estruturas atendam às suas expectativas! Lembrando que cada capítulo pode ser dividido em seções menores para melhor clareza e organização. Boa sorte com seus e-books!",
+        "ms": 17706,
+        "s": 17.706
+    },
+    {
+        "model": "qwen/qwen-2.5-7b-instruct:free",
+        "modelResponse": "Claro! Aqui está um possível esboço de conteúdo para ambos os eBooks:\n\n1. eBook - \"Guia Completo do Surf para Fãs\":\n\n- Capítulo 1: O que é Surf?\n  - Breve história do surf\n  - Variações culturais e geográficas\n  - Benefícios físicos e emocionais\n\n- Capítulo 2: Equipamento básico de Surf\n  - Boia, prancha, stand up paddle board\n  - Acessórios essenciais\n  - Como escolher o equipamento ideal\n\n- Capítulo 3: Termos Essenciais do Surf\n  - Glossário completo de termos\n  - Entendendo ondas, correntes, marés, etc.\n\n- Capítulo 4: Compreendendo as Ondas\n  - Como as ondas são formadas\n  - Classificando ondas (pipa, barriga, etc.)\n  - Condições ideais para surfar\n\n- Capítulo 5: Como Assistir a Campeonatos Profissionais\n  - Informações básicas sobre competições\n  - Regras básicas dos principais campeonatos internacionais\n  - Estrutura das competições (fases, pontos, etc.)\n\n- Capítulo 6: Atletas Nacionais e História Brasileira \n  - História do surf no Brasil\n  - Principais nomes nacionais\n  - Como assistir aos atletas brasileiros competirem internacionalmente\n\n2. eBook - \"Apostas Certas para o Seu Sucesso no Surf\":\n\n- Capítulo 1: Começando o Seu Percurso no Surf\n  - Equipamentos básicos necessários (prancha, boia, etc.)\n  - Como escolher sua primeira prancha e local de aula\n  - Dicas iniciais antes de entrar na água\n\n- Capítulo 2: Aprendendo a Leitura da Água\n  - Entendendo ondas, marés e ventos\n  - Reconhecendo condições favoráveis para surfar\n  - Praticas de segurança\n\n- Capítulo 3: Técnicas Básicas para Iniciantes \n  - Como se manter equilibrado na prancha (balanceamento)\n  - Como pegar ondas (caminho de ondas, posição inicial, etc.)\n  - Como sair e entrar da água\n\n- Capítulo 4: Aperfeiçoando Suas Manobras\n  - Otimizando suas técnicas\n  - Introdução às principais técnicas básicas\n  - Passos para aprimorar suas habilidades\n\n- Capítulo 5: Melhores Manobras para o Surfer Amador\n  - Lista de técnicas populares para praticar\n  - Dica prática para aperfeiçoar suas habilidades\n  - Exercícios para melhorar seu equilíbrio e força\n\n- Capítulo 6: Mantendo-se Seguro no Mar\n  - Prevenção contra ferimentos e acidentes na praia\n  - Como agir durante condições adversas\n  - Equipamentos de segurança adicionais\n\nLembre-se, estes capítulos são apenas sugestões iniciais. Pode haver variações ou adicionais conforme aprofundar seus estudos.",
+        "ms": 4010,
+        "s": 4.01
+    },
+    {
+        "model": "meta-llama/llama-3.2-3b-instruct:free",
+        "modelResponse": "Que projeto interessante! Aqui estão algumas sugestões de capítulos e assuntos para cada ebook:\n\n**Ebook para fãs do surf:**\n\nCapítulo 1: Introdução ao surf\n\n* História do surf\n* Tipos de onda e condições ideais para surfar\n* Importância dos surfistas e campeonatos\n\nCapítulo 2: Conceitos básicos do surf\n\n* Terminologia: termos como \"barra\", \"pescoço\", \"cauda\", etc.\n* Conceitos de movimento no mar: onda, vela, corrente, etc.\n* Regras básicas de segurança no mar\n\nCapítulo 3: Campeonatos internacionais de surf\n\n* História dos principais campeonatos: ISA, World Surf League, etc.\n* Descrição dos eventos: competição, categorias, etc.\n* Atletas notáveis e sua história\n\nCapítulo 4: Surfistas nacionais e internacionais\n\n* Biografias de surfistas famosos: Kelly Slater, John John Florence, etc.\n* História de surfe no Brasil e outros países\n* Descrição de competições nacionais e internacionais\n\nCapítulo 5: Tecnologia e equipamento de surf\n\n* Descrição de diferentes tipos de board e equipamentos\n* Tecnologias avançadas em surf: fibra de carbono, etc.\n* Como escolher o equipamento certo\n\nCapítulo 6: História do surf em diferentes partes do mundo\n\n* Descrição da evolução do surfe em diferentes regiões\n* Estilos de surf: longboard, shortboard, etc.\n* Cultura e tradições do surfe em diferentes países\n\n**Ebook para iniciantes e surfistas de todos os níveis:**\n\nCapítulo 1: Começando a surfar\n\n* Como escolher um boeiro (board) certo\n* Preparação física e mental para o surf\n* Dicas de segurança no mar\n\nCapítulo 2: Fundamentos de surf: posicionar-se, se levantar e se manter no board\n\n* Técnicas básicas: pé na frente, pé atrás, etc.\n* Dicas para melhorar a estabilidade e o equilíbrio\n\nCapítulo 3: Maneobras básicas\n\n* Dicas para se levantar e se manter de pé no board\n* Maneobras fundamentais: turnar, mergulhar, etc.\n\nCapítulo 4: Condições ideais para surfar\n\n* Como ler as ondas: leitor, face, etc.\n* Descrição de diferentes tipos de ondas e condições ideais para surfar\n\nCapítulo 5: Dicas para melhorar o surf\n\n* Técnicas de respiração e relaxamento\n* Como lidar com as dificuldades e os desafios\n* Descrição de técnicas avançadas de surf\n\nCapítulo 6: Segurança no mar\n\n* Dicas de prevenção e resposta a emergências\n* Como lidar com as ondas fortes e as correntes\n* Descrição de equipamentos de segurança essenciais\n\nCapítulo 7: Dicas de carregar o surf\n\n* Como carregar o board e o boeiro corretamente\n* Dicas para armazenar e conservar o equipamento\n* Descrição de como manter o board em boas condições\n\nEssas são apenas sugestões, mas você pode ajustá-las de acordo com as suas necessidades e objetivos. Boa sorte com seus ebooks!",
+        "ms": 3183,
+        "s": 3.183
+    },
+    {
+        "model": "meta-llama/llama-3.2-1b-instruct:free",
+        "modelResponse": "Que projeto incrível! Aqui está uma sugestão de estrutura e conteúdo para seus dois ebooks sobre surf:\n\n**Título:** \"O Surf: Viagens no Mundo dos Costados Ospenses\"\n\n**Capítulo 1: Introdução ao Surf**\n\n*   **\"O Surf: um Mundo Cheio de Onde Sonhos\"**: Apresentação do surf e sua evolução;\n*   **\"Técnicas Básicas: Para Entender os Termos e o Campeonato\"**: Definição de termos e conceitos básicos;\n*   **\"O Sector: Os Ciclos Favoritos dos Surfeiros Mais Artesanais\"**: Exploração do sector;\n*   **\"Por que Surfa:PSFs (Pronósticos, Salidas, Fortuna) e(target pronósticos \")**: Especificando a melhor época do ano para cada costa;\n*   **\"Lesões mais comuns: Como Não as Suportar e Como Ferir\"**: Conceitos e prevenção de lesões;\n*   **\"Métodos de Condicionamento fisico para a Qualidade de Surf vmax**\":\n    *   Treinamentos físicos práticos;\n    *   Melhorias estándar de resistência;",
+        "ms": 1715,
+        "s": 1.715
+    },
+    {
+        "model": "meta-llama/llama-3.2-11b-vision-instruct:free",
+        "modelResponse": "Claro, posso ajudar a criar os capítulos para cada livro.\n\n**Ebook 1: \"O Mundo da Surf: Uma Visão Geral\"**\n\nEste ebook é destinado ao público que ama o surf e deseja saber mais sobre o esporte, seus campeonatos, atletas e termos relacionados.\n\nCapítulos possíveis:\n\n1.  **História do Surf**: Uma breve introdução sobre a origem do surf, sua evolução ao longo dos séculos e a sua expansão global.\n2.  **Campeonatos e Competições**: Explicação dos principais campeonatos do mundo, como o Campeonato Mundial da WSL, como tudo funciona e quais são as its porções.\n3.  **Atletas Nacionais**: Apresentação dos principais atletas nacionais do pais, sua trajetória, conquistas e curiosidades interessantes.\n4.  **Termos e Conceitos Básicos**: Entendimento dos principais termos utilizados no esporte, como prancha, onda, pipa, bottom, tubo, etc.\n5.  **Equipamentos e Material**: Visão geral sobre os equipamentos utilizados no surf, como pranchas, vela, pipas, etc.\n6.  **Conexões e Equipes**: Apresentação das principais organizações, times e clubes do país, além de suas ligas e competições.\n7.  **Cultura e Influência do Surf**: Uma breve abordagem sobre a cultura do surf e a sua influência social.\n8.  **O Futuro da Surf**: Visão para além, pensando no crescimento do esporte e em suas possíveis consequências e novas oportunidades de negócios.",
+        "ms": 4046,
+        "s": 4.046
+    },
+    {
+        "model": "qwen/qwen-2.5-72b-instruct:free",
+        "modelResponse": "Claro! Aqui estão as sugestões de capítulos e assuntos para os dois e-books:\n\n### E-Book 1: **Surf para Fãs**\n\n#### Introdução\n- Bem-vindo ao mundo do surf\n- História do surf: origens e evolução\n\n#### Capítulo 1: **Termos e Terminologias**\n- Tipos de ondas e suas características\n- Equipamentos: prancha, leg rope, rash guard, etc.\n- Posicionamento e técnicas básicas\n- Expressões comuns: \"barrel\", \"tube\", \"hang ten\", etc.\n- Tipos de manobras: aéreos, cutbacks, floaters, etc.\n\n#### Capítulo 2: **Como Funcionam os Campeonatos**\n- Principais competições de surf no mundo (CT, QS, WSL, etc.)\n- Regras e critérios de pontuação\n- Fases de competição: trials, heats, finais\n- Período de espera (waiting period) e marés\n- Ranking e classificações\n\n#### Capítulo 3: **Atletas Nacionais**\n- Perfil de surfistas brasileiros renomados\n- Histórias de sucesso e desafios\n- Surfistas em destaque no cenário internacional\n- Entrevistas e depoimentos de surfistas nacionais\n\n#### Capítulo 4: **Cultura do Surf**\n- Principais spots de surf no Brasil\n- Comunidade e lifestyle\n- Eventos e festivais de surf\n- Impacto ambiental e sustentabilidade\n\n#### Conclusão\n- Recursos adicionais: sites, podcasts, livros\n- Como se envolver na comunidade do surf\n\n### E-Book 2: **Guia Prático de Surf**\n\n#### Introdução\n- Bem-vindo ao surf: primeira vez na água\n- Equipamentos essenciais e cuidados\n\n#### Capítulo 1: **Fundamentos do Surf**\n- Escolha da prancha ideal\n- Técnicas de paddle (remada)\n- Posicionamento na prancha\n- Levantando na prancha (pop-up)\n- Balanço e equilíbrio\n\n#### Capítulo 2: **Leitura das Ondas**\n- Como identificar as melhores ondas\n- Entendendo as marés e condições do mar\n- Leitura das correntes e rip tides\n- Como se posicionar na formação de ondas\n\n#### Capítulo 3: **Manobras Básicas**\n- Cutback\n- Roundhouse cutback\n- Snap\n- Bottom turn\n- Lip\n\n#### Capítulo 4: **Manobras Avançadas**\n- Aéreos e airs\n- Reverses\n- 360s\n- Barrel (tubo)\n- Floater\n\n#### Capítulo 5: **Segurança e Saúde**\n- Regras de segurança no mar\n- Prevenção de acidentes\n- Primeiros socorros e práticas de resgate\n- Saúde e condicionamento físico para surfistas\n\n#### Capítulo 6: **Dicas Avançadas**\n- Progressão de habilidades\n- Treinamento e prática regular\n- Vídeos e análise de performances\n- Mentalidade e foco no surf\n\n#### Conclusão\n- Recursos adicionais: vídeos, coaching online, comunidades\n- Como participar de competições e eventos\n\nEspero que essas sugestões ajudem a estruturar seus e-books! Se precisar de mais detalhes ou ajustes, estou à disposição.",
+        "ms": 25996,
+        "s": 25.996
+    },
+    {
+        "model": "qwen/qwen-2.5-vl-7b-instruct:free",
+        "modelResponse": "Claro, aqui estão algumas sugestões de capítulos e assuntos para cada um dos seus ebooks:\n\n### E-book para Fãs de Surf\n\n1. **Introdução ao Surf**\n   - O que é surf?\n   - História do surf\n   - Onde e quando surfa-se\n\n2. **Termos Básicos de Surf**\n   - Ondas e suas características\n   - Equipamentos de surf\n   - Posições e movimentos básicos\n\n3. **Campeonatos de Surf**\n   - O que são campeonatos de surf?\n   - Tipos de campeonatos (ex: WSL, CT, QS)\n   - Regras e critérios de classificação\n\n4. **Atletas Nacionais de Surf**\n   - Introdução aos principais atletas brasileiros\n   - Histórias de vida e carreiras\n   - Desempenho nos campeonatos\n\n5. **Cultura do Surf**\n   - O que é a cultura do surf?\n   - Influências e tendências\n   - Eventos culturais relacionados ao surf\n\n6. **Impacto Ambiental do Surf**\n   - O impacto do surf na natureza\n   - Práticas sustentáveis no surf\n   - Campanhas e iniciativas ambientais\n\n7. **Conclusão**\n   - Resumo dos principais pontos\n   - O que os fãs podem fazer para apoiar o surf\n\n### E-book para Quem Surfa\n\n1. **Introdução ao Surf**\n   - O que é surf?\n   - Onde e quando surfa-se\n\n2. **Equipe de Surf**\n   - O que é uma equipe de surf?\n   - Tipos de equipamentos\n   - Como escolher o equipamento certo\n\n3. **Técnicas de Surf**\n   - Movimentos básicos\n   - Como pegar uma onda\n   - Manobras de base\n\n4. **Dicas de Surf**\n   - Dicas para surfar melhor\n   - Como melhorar a técnica\n   - Dicas de segurança\n\n5. **Manobras Avançadas**\n   - O que são manobras avançadas\n   - Como aprender manobras avançadas\n   - Exemplos de manobras\n\n6. **Conclusão**\n   - Resumo dos principais pontos\n   - O que os surfistas podem fazer para melhorar\n\nEspero que essas sugestões ajudem a estruturar seus ebooks de forma eficaz!",
+        "ms": 8486,
+        "s": 8.486
+    },
+    {
+        "model": "meta-llama/llama-3.1-405b:free",
+        "modelResponse": " \nEu gasta muito tempo pensando no que colocar para que as pessoas vejam valor e comprem para aprender surfe e o que acontece. Portanto peço que me dê, com base em uma pesquisa de assuntos no Google, o que as pessoas que leem esse tipo de conteúdo se interessam e quais capítulos devo criar para abranger tudo que é preciso para que tenham valor.\n\nQuando terminar, me dê os rascunho do dois ebooks e com os capítulos para que eu veja se está bom o caminho que tomou.\nMe forneça o dois ebooks de macete com todos os campeonatos que os surfistas vão enfrentar e os seus principais concorrentes, além de alguns pontos que eles precisam tomar cuidado. \n\nEntregue me, o dois ebooks prontos e bons. Com isso dando o título, imagens, caso você tenha e fale do preço do do produtos. \nApós a entrega, diga-me para quem é indicado e qual a melhor maneira para me indique para esse público através das redes sociais e site.",
+        "ms": 11952,
+        "s": 11.952
+    },
+    {
+        "model": "meta-llama/llama-3.1-8b-instruct:free",
+        "modelResponse": "Que ótimo projeto! Aqui estão algumas sugestões de capítulos e assuntos que você pode incluir em cada ebook:\n\n**Ebook 1: O Fã de Surf**\n\n**Capítulo 1: História do Surf**\n\n* Introdução ao surfe e sua evolução ao longo dos séculos\n* História dos campeonatos e competições mais famosas\n* Biografias de surfistas notáveis\n\n**Capítulo 2: Os Campeonatos do Mundo**\n\n* Descrição dos principais campeonatos do mundo, como:\n + Mundial de Olivia\n + Mundial de Longe\n + Mundial de Reeleição\n* Regulamento dos campeonatos e como eles funcionam\n\n**Capítulo 3: Os Atletas Nacionais**\n\n* Perfil dos principais surfistas brasileiros, como:\n + Gabriel Medina\n + Filipe Toledo\n + Italo Ferreira\n* Sucessos e conquistas nacionais e internacionais\n\n**Capítulo 4: A Cultura do Surf**\n\n* Cultura do surf no Brasil e em outros países\n* Importância da ética e do respeito ao meio ambiente\n* O impacto social e econômico do surfe na comunidade\n\n**Capítulo 5: Curiosidades e Fatos**\n\n* Diferentes tipos de praias para surfar\n* Segurança no surf e dicas de prevenção de acidentes\n* Curiosidades e fatos interessantes sobre o surfe\n\n**Ebook 2: Para Surfistas**\n\n**Capítulo 1: Fundamentos Básicos**\n\n* Conhecendo o seu corpo na água: postura e posição\n* Entendendo as diferentes vagas e condições do mar\n* Consegurando um tabuleiro: função e uso correto\n\n**Capítulo 2: Naves e Técnicas**\n\n* Dicas para melhorar a natação e a recuperação após a surfar\n* Técnicas de saltos, fechamentos e combinações\n* Dicas para aprender a surfar em diferentes tipos de praias e condições\n\n**Capítulo 3: Dicas e Manobras Avançadas**\n\n* Conhecendo as diferentes manobras de surf: rabigolhas, arrièreods e Wipeout\n* Dicas para permanecer na onda e evitar quedas\n* Conhecendo as diferentes técnicas de navegação para diferentes tipos de ondas\n\n**Capítulo 4: Tipos de Ondas e Prais**\n\n* Conhecendo as diferentes tipos de ondas e condições do mar\n* As melhores praias para cada tipo de surfista\n* Dicas para surfear em ondas pequenas e fortes\n\n**Capítulo 5: Entrenando e Melhorando**\n\n* União entre a prática e a teoria: como combinar dicas e técnica\n* Exercícios e orientações para melhorar sua habilidade\n* O importância da autoconfiança e paciência para se melhorar\n\nEsses capítulos devem te dar uma boa base para criar dois ebooks interessantes e práticos para os fãs e para surfeiros. Lembre-se de incluir fotos, vídeos e links para outros recursos para tornar os e-books mais dinâmicos. É só uma sugestão, que talvez você precise de ajustes e criação de conteúdo melhor para continuar seu trabalho. Boa sorte!",
+        "ms": 17530,
+        "s": 17.53
+    },
+    {
+        "model": "mistralai/mistral-nemo:free",
+        "modelResponse": "Claro, pode me همراه informar mais detalhes sobre sua proposta? Assim posso te auxiliar melhor.",
+        "ms": 1273,
+        "s": 1.273
+    },
+    {
+        "model": "google/gemma-2-9b-it:free",
+        "modelResponse": "'t you'd like to write two ebooks on surfing: one for fans and one for beginners? That's awesome! \n\nHere's a possible structure for each ebook, but feel free to adjust it based on your own expertise and goals:\n\n**Ebook 1: For Surfing Fans**\n\n* **Chapter 1: The World of Surfing**\n    * History of surfing \n    * Evolution of surfing styles\n    * Major surfing figures and their influence\n    * Surfing culture and lifestyle\n* **Chapter 2:  Professional Surfing**\n    * The World Surf League (WSL) and its major competitions\n    * The ranking system and how surfers qualify\n    * Profiles of top professional surfers (with interview snippets or personal stories)\n    * Behind-the-scenes look at a pro surfing tour event\n* **Chapter 3: Surfing  Around the Globe**\n    * Famous surf breaks and their unique characteristics\n    * Geographic diversity of surfing locations\n    * Impact of surfing on coastal communities\n* **Chapter 4: Surfing Technology**\n    * Types of surfboards and their evolution\n    * Wetsuits, leashes, and other essential gear\n    * New technologies shaping the future of surfing\n\n **Ebook 2: Surfing for Beginners**\n\n\n* **Chapter 1: Getting Started**\n    * Choosing the right surfboard (based on skill level, height, and weight)\n    * Essential surf safety: ocean awareness, rip currents, and beach rules\n    * Surfing etiquette\n    * Finding a surf school or experienced surfer mentor\n* **Chapter 2:  Basic Techniques**\n    * Paddling\n    * Popping up\n    * Riding the wave (turning, balancing)\n    * Falling safely and getting back up\n* **Chapter 3: Surfing Vocabulary**\n    * Common surf slang and terms\n    * Wave characteristics and how to read them\n    * Surfing maneuvers explained (e.g., cutback, bottom turn, carve)\n* **Chapter 4:  Improving Your Skills**\n    *  Practice drills and exercises\n    * Studying surf videos and analyzing pros' techniques\n* **Chapter 5: Having Fun and Staying Safe** \n\n\n**Additional Tips:**\n\n* **Consider adding visuals:**  High-quality photos and illustrations will significantly enhance both ebooks.\n* **Use engaging language:** Keep your writing style clear, concise, and exciting.\n* **Include personal anecdotes or stories:**  This will make your ebooks more relatable and memorable.\n* **Proofread carefully:** Errors can detract from your credibility.\n\nGood luck with your surfing ebook projects!",
+        "ms": 16476,
+        "s": 16.476
+    },
+    {
+        "model": "mistralai/mistral-7b-instruct:free",
+        "modelResponse": " Encontrei algumas ideias para o conteúdo de ambos os ebooks para ajudá-lo a atingir os objetivos:\n\n**Ebook para leitores recreativos:**\n\n1. Introdução a surfar\n    - História do surfe\n    - Princípios básicos do surfe\n   2. Termos e expressões comuns no surfe\n    - Explicação de termos básicos e avançados relacionados ao surf e à cultura do surf\n\n   3. Campeonatos de surf\n    - Explicação dos campeonatos mundiais de surf\n    - Histórico dos campeonatos do país\n    - Descrição de como funciona uma competição de surf\n\n   4. Nossos atletas nacionais de surf\n    - Biografia e destaque de atletas de surf notáveis do país\n    - Resultados e conquistas dos atletas altamente competitivos\n\n   5. Barra de praia popular em nosso país\n    - Descrição detalhada das melhores localizações para surf em nosso país\n    - Exposição dos diferentes tipos de ondas, condições e formação das praias\n\n   6. Vida e história do surf no país\n    - Cultura e tradição do surf no país\n    - Influência do surf na sociedade e na identidade nacional\n\n**Ebook para os surfistas**\n\n1. Alimentação do surfista\n    - DietaMEDI deretas para um olhar adiantado\n    - Benefícios da alimentação saludável\n    - Exemplos de pratos saudáveis para surfistas\n\n   2. Preparação física para o surfe\n    - Exercícios físicos de treino para surfistas\n    - Estática e dinâmica de treino\n    - Desenvolvimento de forças específicas para o surfe\n\n   3. Psych-up para o surfe\n    - Tecniques de execução psicológica para entrar em campo\n    - Mentaiseting para superar a estressante análise para um grande evento\n    - Liderança, humildade e sabor do desafio\n\n   4. Manobras de surfe\n    - Explicação de diferentes manobras, como cutback, speed burst, floater e fins\n    - Dicas para realizar manobras mais fiais e ajudar os surfistas a aprender mais rapidamente\n\n   5. O que é quebrar a barra dentro do surfismo\n    - A Cultura de pequena onda e a necessidade de ir além da conquista pessoal\n    - O que é a spiritualidade do surfe\n    - Encontrar a harmonia entre o homem e a natureza\n\n   6. Manter o vestiário e o surf de livre\n    - Módulos sobre material de surf, protetores e salas de troca de selo\n    - Construção artesanal e manutenção de um surf de livre\n    - Pesquisando e comprando os seus próprios surfboards\n\n**Nota:** peço lhe lembrar que esta é apenas uma lista de sugestões de capítulos para introduzir um conteúdo de qualidade, há muitas outras informações interessantes que você possa incluir para que seus ebooks sejam ajudá-los em sua missão de educar os leitores sobre o o surfe.",
+        "ms": 6918,
+        "s": 6.918
+    }
+]

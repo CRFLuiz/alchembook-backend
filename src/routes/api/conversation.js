@@ -18,7 +18,7 @@ const freeModels = [
     'qwen/qwen3-235b-a22b:free',
     'tngtech/deepseek-r1t-chimera:free',
     'thudm/glm-z1-9b:free',
-    'thudm/glm-4-9b:free',
+    // 'thudm/glm-4-9b:free',
     'microsoft/mai-ds-r1:free',
     'thudm/glm-z1-32b:free',
     'thudm/glm-4-32b:free',
@@ -104,7 +104,7 @@ router.post('/test-free-models', async (req, res) => {console.log(freeModels.len
             response.push({ model: freeModels[i], modelResponse, ms: end - start, s: (end - start) / 1000 });
             console.log('-')
         }catch(error){
-            response.push({ model: freeModels[i], error, ms: end - start, s: (end - start) / 1000 });
+            response.push({ model: freeModels[i], error });
             console.log('Error with model: ', freeModels[i]);
             console.log('Error: ', error);
             console.log('-')
@@ -113,5 +113,34 @@ router.post('/test-free-models', async (req, res) => {console.log(freeModels.len
     fs.writeFileSync(`./public/test-results.${new Date()}.json`, JSON.stringify(response, null, 4));
     res.status(200).json({ ok: true, response });
 });
+
+async function testModels(message, prompt){
+    const response = [];
+    for(let i = 0; i < freeModels.length; i++){
+        try{
+            console.log('Testing model: ', freeModels[i]);
+            const start = new Date();
+            const llm = new LLM({ model: freeModels[i], systemPrompt: prompt });
+            const modelResponse = await llm.talk(message);
+            const end = new Date();
+            console.log('Model response in: ', end - start, 'ms (', (end - start) / 1000, 's)');
+            response.push({ model: freeModels[i], modelResponse, ms: end - start, s: (end - start) / 1000 });
+            console.log('-')
+        }catch(error){
+            response.push({ model: freeModels[i], error });
+            console.log('Error with model: ', freeModels[i]);
+            console.log('Error: ', error);
+            console.log('-')
+        }
+    }
+    const fileName = `./src/public/test-results.${Date.now()}.json`;
+    fs.writeFileSync(fileName, JSON.stringify(response, null, 4));
+    console.log('Message:', message, '\nPrompt:', prompt, '\nResults saved to: ', fileName, '# ================================= #');
+    return fileName;
+}
+
+// testModels('Hello, how are you?', 'You are a helpful assistant.');
+// testModels('Olá. Como você pode me ajudar na criação de um ebook?');
+// testModels('Quero criar dois ebooks sobre surf. Um para os fãs, onde eles entenderão todos os termos, como funcionam os campeonatos e os nossos atletas nacionais. E outro para quem surfa, onde aprenderão dicas e manobras.\nTendo em mente o que eu quero, preciso que você me dê os capítulos e assuntos que eu devo colocar em cada ebook.')
 
 module.exports = router;
