@@ -35,15 +35,32 @@ class OpenRouterLLM {
     return [];
   }
 
-  async talk(message, user){
-    if(!message) return 'Didn\'t receive any messages';
+  async singleMessage(message){
     let messages = [];
     if(this.systemPrompt) messages.push({ role: 'system', content: this.systemPrompt });
-    const historyMessages = await this.getHistoryMessages(user);
-    messages = messages.concat(historyMessages);
+    // const historyMessages = await this.getHistoryMessages(user);
+    // messages = messages.concat(historyMessages);
     messages.push({ role: 'user', content: message });
+    return messages;
+  }
+
+  async conversation(message){
+    let messages = [];
+    if((!message[0].role == 'system') && this.systemPrompt) messages.push({ role: 'system', content: this.systemPrompt });
+    messages = messages.concat(message);
+    return messages;
+  }
+
+  async talk(message, user){
+    if(!message) return 'Didn\'t receive any messages';
+
+    let history;
+
+    if(Array.isArray(message)) history = await this.conversation(message);
+    else history = await this.singleMessage(message);
+    
     try{
-      const response = await this.completion(messages);
+      const response = await this.completion(history);
       return response.choices[0].message.content;
 
     }catch(error){
