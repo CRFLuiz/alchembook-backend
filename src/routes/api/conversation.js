@@ -139,6 +139,24 @@ async function testModels(message, prompt){
     return fileName;
 }
 
+const writeMD = () => {
+    const file = require('../../public/test-results.1747529746836.json');
+    let error = '';
+    for(let i = 0; i < file.length; i++){
+        const modelResult = file[i];
+        const title = `${modelResult.model.replace('/', '_').replace(':', '_')}.md`;
+        if(modelResult.error){
+            error += `${title}\n`;
+            continue;
+        }
+        const content = modelResult.modelResponse;
+        fs.writeFileSync(`./src/public/${title}`, content);
+    };
+    fs.writeFileSync(`./src/public/errors.txt`, error);
+    console.log('finished writing files');
+}
+writeMD();
+
 // testModels('Hello, how are you?', 'You are a helpful assistant.');
 // testModels('Olá. Como você pode me ajudar na criação de um ebook?');
 // testModels('Quero criar dois ebooks sobre surf. Um para os fãs, onde eles entenderão todos os termos, como funcionam os campeonatos e os nossos atletas nacionais. E outro para quem surfa, onde aprenderão dicas e manobras.\nTendo em mente o que eu quero, preciso que você me dê os capítulos e assuntos que eu devo colocar em cada ebook.')
