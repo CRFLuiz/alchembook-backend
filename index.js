@@ -18,3 +18,5 @@ server.use(cors({
 server.use(routes);
 
 server.listen(PORT, err => console.log(err || `Server is running on port ${PORT}`));
+
+require('./tests')

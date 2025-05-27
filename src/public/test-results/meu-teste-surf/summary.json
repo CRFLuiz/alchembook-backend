@@ -1,0 +1,376 @@
+{
+    "folderName": "meu-teste-surf",
+    "createdAt": "2025-05-27T17:27:33.581Z",
+    "message": "Quero criar dois ebooks sobre surf...",
+    "prompt": "Você é um assistente especializado em criação de conteúdo",
+    "totalModels": 69,
+    "successful": 20,
+    "failed": 49,
+    "results": [
+        {
+            "model": "meta-llama/llama-3.3-8b-instruct:free",
+            "status": "success",
+            "timeTaken": 3562,
+            "filePath": "./public/test-results/meu-teste-surf/meta-llama_llama-3.3-8b-instruct_free.md"
+        },
+        {
+            "model": "nousresearch/deephermes-3-mistral-24b-preview:free",
+            "status": "success",
+            "timeTaken": 3373,
+            "filePath": "./public/test-results/meu-teste-surf/nousresearch_deephermes-3-mistral-24b-preview_free.md"
+        },
+        {
+            "model": "microsoft/phi-4-reasoning-plus:free",
+            "status": "success",
+            "timeTaken": 28856,
+            "filePath": "./public/test-results/meu-teste-surf/microsoft_phi-4-reasoning-plus_free.md"
+        },
+        {
+            "model": "microsoft/phi-4-reasoning:free",
+            "status": "success",
+            "timeTaken": 22276,
+            "filePath": "./public/test-results/meu-teste-surf/microsoft_phi-4-reasoning_free.md"
+        },
+        {
+            "model": "qwen/qwen3-0.6b-04-28:free",
+            "status": "error",
+            "error": "Error in talk"
+        },
+        {
+            "model": "qwen/qwen3-1.7b:free",
+            "status": "error",
+            "error": "Error in talk"
+        },
+        {
+            "model": "qwen/qwen3-4b:free",
+            "status": "error",
+            "error": "Error in talk"
+        },
+        {
+            "model": "opengvlab/internvl3-14b:free",
+            "status": "success",
+            "timeTaken": 6189,
+            "filePath": "./public/test-results/meu-teste-surf/opengvlab_internvl3-14b_free.md"
+        },
+        {
+            "model": "deepseek/deepseek-prover-v2:free",
+            "status": "success",
+            "timeTaken": 13816,
+            "filePath": "./public/test-results/meu-teste-surf/deepseek_deepseek-prover-v2_free.md"
+        },
+        {
+            "model": "qwen/qwen3-30b-a3b:free",
+            "status": "success",
+            "timeTaken": 72761,
+            "filePath": "./public/test-results/meu-teste-surf/qwen_qwen3-30b-a3b_free.md"
+        },
+        {
+            "model": "qwen/qwen3-8b:free",
+            "status": "success",
+            "timeTaken": 10849,
+            "filePath": "./public/test-results/meu-teste-surf/qwen_qwen3-8b_free.md"
+        },
+        {
+            "model": "qwen/qwen3-14b:free",
+            "status": "success",
+            "timeTaken": 30774,
+            "filePath": "./public/test-results/meu-teste-surf/qwen_qwen3-14b_free.md"
+        },
+        {
+            "model": "qwen/qwen3-32b:free",
+            "status": "error",
+            "error": "Error in talk"
+        },
+        {
+            "model": "qwen/qwen3-235b-a22b:free",
+            "status": "error",
+            "error": "Error in talk"
+        },
+        {
+            "model": "tngtech/deepseek-r1t-chimera:free",
+            "status": "success",
+            "timeTaken": 27887,
+            "filePath": "./public/test-results/meu-teste-surf/tngtech_deepseek-r1t-chimera_free.md"
+        },
+        {
+            "model": "thudm/glm-z1-9b:free",
+            "status": "error",
+            "error": "Error in talk"
+        },
+        {
+            "model": "thudm/glm-4-9b:free",
+            "status": "error",
+            "error": "Error in talk"
+        },
+        {
+            "model": "microsoft/mai-ds-r1:free",
+            "status": "success",
+            "timeTaken": 31336,
+            "filePath": "./public/test-results/meu-teste-surf/microsoft_mai-ds-r1_free.md"
+        },
+        {
+            "model": "thudm/glm-z1-32b:free",
+            "status": "error",
+            "error": "Error in talk"
+        },
+        {
+            "model": "thudm/glm-4-32b:free",
+            "status": "success",
+            "timeTaken": 25647,
+            "filePath": "./public/test-results/meu-teste-surf/thudm_glm-4-32b_free.md"
+        },
+        {
+            "model": "shisa-ai/shisa-v2-llama3.3-70b:free",
+            "status": "success",
+            "timeTaken": 26488,
+            "filePath": "./public/test-results/meu-teste-surf/shisa-ai_shisa-v2-llama3.3-70b_free.md"
+        },
+        {
+            "model": "arliai/qwq-32b-arliai-rpr-v1:free",
+            "status": "success",
+            "timeTaken": 4859,
+            "filePath": "./public/test-results/meu-teste-surf/arliai_qwq-32b-arliai-rpr-v1_free.md"
+        },
+        {
+            "model": "agentica-org/deepcoder-14b-preview:free",
+            "status": "error",
+            "error": "Error in talk"
+        },
+        {
+            "model": "moonshotai/kimi-vl-a3b-thinking:free",
+            "status": "error",
+            "error": "Error in talk"
+        },
+        {
+            "model": "nvidia/llama-3.3-nemotron-super-49b-v1:free",
+            "status": "success",
+            "timeTaken": 35261,
+            "filePath": "./public/test-results/meu-teste-surf/nvidia_llama-3.3-nemotron-super-49b-v1_free.md"
+        },
+        {
+            "model": "nvidia/llama-3.1-nemotron-ultra-253b-v1:free",
+            "status": "error",
+            "error": "Error in talk"
+        },
+        {
+            "model": "meta-llama/llama-4-maverick:free",
+            "status": "error",
+            "error": "Error in talk"
+        },
+        {
+            "model": "meta-llama/llama-4-scout:free",
+            "status": "error",
+            "error": "Error in talk"
+        },
+        {
+            "model": "deepseek/deepseek-v3-base:free",
+            "status": "error",
+            "error": "Error in talk"
+        },
+        {
+            "model": "bytedance-research/ui-tars-72b:free",
+            "status": "error",
+            "error": "Error in talk"
+        },
+        {
+            "model": "qwen/qwen2.5-vl-3b-instruct:free",
+            "status": "success",
+            "timeTaken": 4331,
+            "filePath": "./public/test-results/meu-teste-surf/qwen_qwen2.5-vl-3b-instruct_free.md"
+        },
+        {
+            "model": "google/gemini-2.5-pro-exp-03-25",
+            "status": "error",
+            "error": "Error in talk"
+        },
+        {
+            "model": "qwen/qwen2.5-vl-32b-instruct:free",
+            "status": "error",
+            "error": "Error in talk"
+        },
+        {
+            "model": "deepseek/deepseek-chat-v3-0324:free",
+            "status": "error",
+            "error": "Error in talk"
+        },
+        {
+            "model": "featherless/qwerky-72b:free",
+            "status": "success",
+            "timeTaken": 64021,
+            "filePath": "./public/test-results/meu-teste-surf/featherless_qwerky-72b_free.md"
+        },
+        {
+            "model": "mistralai/mistral-small-3.1-24b-instruct:free",
+            "status": "error",
+            "error": "Error in talk"
+        },
+        {
+            "model": "open-r1/olympiccoder-32b:free",
+            "status": "error",
+            "error": "Error in talk"
+        },
+        {
+            "model": "google/gemma-3-1b-it:free",
+            "status": "error",
+            "error": "Error in talk"
+        },
+        {
+            "model": "google/gemma-3-4b-it:free",
+            "status": "success",
+            "timeTaken": 13694,
+            "filePath": "./public/test-results/meu-teste-surf/google_gemma-3-4b-it_free.md"
+        },
+        {
+            "model": "google/gemma-3-12b-it:free",
+            "status": "error",
+            "error": "Error in talk"
+        },
+        {
+            "model": "rekaai/reka-flash-3:free",
+            "status": "error",
+            "error": "Error in talk"
+        },
+        {
+            "model": "google/gemma-3-27b-it:free",
+            "status": "error",
+            "error": "Error in talk"
+        },
+        {
+            "model": "deepseek/deepseek-r1-zero:free",
+            "status": "error",
+            "error": "Error in talk"
+        },
+        {
+            "model": "qwen/qwq-32b:free",
+            "status": "error",
+            "error": "Error in talk"
+        },
+        {
+            "model": "moonshotai/moonlight-16b-a3b-instruct:free",
+            "status": "error",
+            "error": "Error in talk"
+        },
+        {
+            "model": "nousresearch/deephermes-3-llama-3-8b-preview:free",
+            "status": "error",
+            "error": "Error in talk"
+        },
+        {
+            "model": "cognitivecomputations/dolphin3.0-r1-mistral-24b:free",
+            "status": "error",
+            "error": "Error in talk"
+        },
+        {
+            "model": "cognitivecomputations/dolphin3.0-mistral-24b:free",
+            "status": "error",
+            "error": "Error in talk"
+        },
+        {
+            "model": "qwen/qwen2.5-vl-72b-instruct:free",
+            "status": "error",
+            "error": "Error in talk"
+        },
+        {
+            "model": "mistralai/mistral-small-24b-instruct-2501:free",
+            "status": "success",
+            "timeTaken": 1655,
+            "filePath": "./public/test-results/meu-teste-surf/mistralai_mistral-small-24b-instruct-2501_free.md"
+        },
+        {
+            "model": "deepseek/deepseek-r1-distill-qwen-32b:free",
+            "status": "error",
+            "error": "Error in talk"
+        },
+        {
+            "model": "deepseek/deepseek-r1-distill-qwen-14b:free",
+            "status": "success",
+            "timeTaken": 5281,
+            "filePath": "./public/test-results/meu-teste-surf/deepseek_deepseek-r1-distill-qwen-14b_free.md"
+        },
+        {
+            "model": "deepseek/deepseek-r1-distill-llama-70b:free",
+            "status": "error",
+            "error": "Error in talk"
+        },
+        {
+            "model": "deepseek/deepseek-r1:free",
+            "status": "error",
+            "error": "Error in talk"
+        },
+        {
+            "model": "deepseek/deepseek-chat:free",
+            "status": "error",
+            "error": "Error in talk"
+        },
+        {
+            "model": "google/gemini-2.0-flash-exp:free",
+            "status": "error",
+            "error": "Error in talk"
+        },
+        {
+            "model": "meta-llama/llama-3.3-70b-instruct:free",
+            "status": "error",
+            "error": "Error in talk"
+        },
+        {
+            "model": "qwen/qwen-2.5-coder-32b-instruct:free",
+            "status": "error",
+            "error": "Error in talk"
+        },
+        {
+            "model": "qwen/qwen-2.5-7b-instruct:free",
+            "status": "error",
+            "error": "Error in talk"
+        },
+        {
+            "model": "meta-llama/llama-3.2-3b-instruct:free",
+            "status": "error",
+            "error": "Error in talk"
+        },
+        {
+            "model": "meta-llama/llama-3.2-1b-instruct:free",
+            "status": "error",
+            "error": "Error in talk"
+        },
+        {
+            "model": "meta-llama/llama-3.2-11b-vision-instruct:free",
+            "status": "error",
+            "error": "Error in talk"
+        },
+        {
+            "model": "qwen/qwen-2.5-72b-instruct:free",
+            "status": "error",
+            "error": "Error in talk"
+        },
+        {
+            "model": "qwen/qwen-2.5-vl-7b-instruct:free",
+            "status": "error",
+            "error": "Error in talk"
+        },
+        {
+            "model": "meta-llama/llama-3.1-405b:free",
+            "status": "error",
+            "error": "Error in talk"
+        },
+        {
+            "model": "meta-llama/llama-3.1-8b-instruct:free",
+            "status": "error",
+            "error": "Error in talk"
+        },
+        {
+            "model": "mistralai/mistral-nemo:free",
+            "status": "error",
+            "error": "Error in talk"
+        },
+        {
+            "model": "google/gemma-2-9b-it:free",
+            "status": "error",
+            "error": "Error in talk"
+        },
+        {
+            "model": "mistralai/mistral-7b-instruct:free",
+            "status": "error",
+            "error": "Error in talk"
+        }
+    ]
+}

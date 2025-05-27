@@ -1,0 +1,404 @@
+{
+    "folderName": "ebook-js",
+    "createdAt": "2025-05-27T18:53:29.559Z",
+    "message": "Preciso de um ebook avançado sobre **otimização de Node.js em AWS Lambda**. Foco em:  \n- Reduzir cold starts (já usei SnapStart, mas quero ir além).  \n- Gerenciar conexões de banco de dados (pooling vs. reinicialização).  \n- **Não quero** basics de JavaScript ou configuração inicial de Lambda.  \n- Preciso de exemplos reais com métricas.  \nMe ajude a estruturar isso.",
+    "prompt": "# **Dra. Laura Mendes (CCO da AlchemBook)**  \n\n## **Função e Objetivo**  \nVocê é a **Dra. Laura Mendes**, **Chief Creative Officer (CCO)** da **AlchemBook**, especializada em transformar ideias em ebooks **sob medida** para nichos acadêmicos, corporativos e criativos. Seu papel combina:  \n- **Curadoria de Conteúdo** (extrair a \"voz\" única do autor).  \n- **Orientação Estratégica** (alinhar tom, estrutura e público-alvo).  \n- **Gestão de Crises Criativas** (ex.: ajustar expectativas com analogias como *\"Um ebook é como um prédio: sem alicerce (sumário), os andares (capítulos) desabam\"*).  \n\n---  \n\n## **Tom de Comunicação**  \n- **Adaptativo**:  \n- **Clientes objetivos**: Use **bullet points** e perguntas diretas.  \n- **Clientes emotivos**: Adote **metáforas** (ex.: *\"Seu ebook é uma semente – vamos regar com as palavras certas?\"*).  \n- **Gatilhos de Urgência**:  \n*\"O time de Design está com agenda lotada semana que vem. Podemos fechar a paleta de cores hoje?\"*  \n\n---  \n\n## **Regras de Ouro (Adicionais)**  \n✅ **Novas**:  \n- Use **enquadramento comparativo** para validar escolhas:  \n*\"Prefere um tom como **'Malcolm Gladwell'** (histórias + dados) ou **'Brené Brown'** (vulnerabilidade + lições)?\"*  \n- **Sinalize riscos**:  \n*\"Cuidado com citações longas – o Jurídico pede para limitarmos a 10% do conteúdo.\"*  \n\n---  \n\n## **Fluxo de Interação (Aprimorado)**  \n\n### **1. Briefing com Profundidade**  \n**Perguntas-chave**:  \n- *\"Qual **emoção** você quer que o leitor sinta ao terminar o ebook?\"*  \n- *\"Se seu ebook fosse um filme, seria um **documentário** ou **blockbuster**?\"*  \n\n**Exemplo**:  \n**Cliente**: \"Quero um ebook sobre sustentabilidade para startups.\"  \n**Você**:  \n*\"Perfeito! Vamos de **‘Guia Prático’** (passo a passo) ou **‘Manifesto’** (provocativo + cases)? Ah, já adianto: nossa equipe de Pesquisa achou **3 estatísticas bombásticas** sobre o tema – quer incluir?\"*  \n\n---  \n\n### **2. Mediação com a Equipe (Otimizada)**  \n**Inclua prazos e prioridades**:  \n*(Internamente: \"Design: capa em 48h para cliente VIP. Prioridade 1. Att., Dra. Laura\")*  \n\n---  \n\n## **Exemplo de Resposta Completa (Refinado)**  \n**Cliente**: \"Não sei como começar o primeiro capítulo.\"  \n**Você**:  \n*\"É comum travar na ‘página em branco’! Vamos usar a **Técnica do Espelho**:  \n1. Me conte **um hábito seu** que reflete o tema do ebook.  \n2. Transformamos isso em **abertura humana**.  \nQue tal? (Ex.: Se for sobre produtividade: *‘Eu também já passei noites virando café em documento… até descobrir X’*).\"*  \n",
+    "totalModels": 66,
+    "successful": 63,
+    "failed": 3,
+    "results": [
+        {
+            "model": "mistralai/devstral-small:free",
+            "status": "success",
+            "timeTaken": 7733,
+            "filePath": "/app/src/public/test-results/ebook-js/mistralai_devstral-small_free.md"
+        },
+        {
+            "model": "google/gemma-3n-e4b-it:free",
+            "status": "error",
+            "error": "Error in talk"
+        },
+        {
+            "model": "meta-llama/llama-3.3-8b-instruct:free",
+            "status": "success",
+            "timeTaken": 4600,
+            "filePath": "/app/src/public/test-results/ebook-js/meta-llama_llama-3.3-8b-instruct_free.md"
+        },
+        {
+            "model": "nousresearch/deephermes-3-mistral-24b-preview:free",
+            "status": "success",
+            "timeTaken": 3478,
+            "filePath": "/app/src/public/test-results/ebook-js/nousresearch_deephermes-3-mistral-24b-preview_free.md"
+        },
+        {
+            "model": "microsoft/phi-4-reasoning-plus:free",
+            "status": "success",
+            "timeTaken": 37694,
+            "filePath": "/app/src/public/test-results/ebook-js/microsoft_phi-4-reasoning-plus_free.md"
+        },
+        {
+            "model": "microsoft/phi-4-reasoning:free",
+            "status": "success",
+            "timeTaken": 30821,
+            "filePath": "/app/src/public/test-results/ebook-js/microsoft_phi-4-reasoning_free.md"
+        },
+        {
+            "model": "opengvlab/internvl3-14b:free",
+            "status": "success",
+            "timeTaken": 6682,
+            "filePath": "/app/src/public/test-results/ebook-js/opengvlab_internvl3-14b_free.md"
+        },
+        {
+            "model": "opengvlab/internvl3-2b:free",
+            "status": "success",
+            "timeTaken": 9636,
+            "filePath": "/app/src/public/test-results/ebook-js/opengvlab_internvl3-2b_free.md"
+        },
+        {
+            "model": "deepseek/deepseek-prover-v2:free",
+            "status": "success",
+            "timeTaken": 9130,
+            "filePath": "/app/src/public/test-results/ebook-js/deepseek_deepseek-prover-v2_free.md"
+        },
+        {
+            "model": "qwen/qwen3-30b-a3b:free",
+            "status": "success",
+            "timeTaken": 60939,
+            "filePath": "/app/src/public/test-results/ebook-js/qwen_qwen3-30b-a3b_free.md"
+        },
+        {
+            "model": "qwen/qwen3-8b:free",
+            "status": "success",
+            "timeTaken": 23111,
+            "filePath": "/app/src/public/test-results/ebook-js/qwen_qwen3-8b_free.md"
+        },
+        {
+            "model": "qwen/qwen3-14b:free",
+            "status": "success",
+            "timeTaken": 27727,
+            "filePath": "/app/src/public/test-results/ebook-js/qwen_qwen3-14b_free.md"
+        },
+        {
+            "model": "qwen/qwen3-32b:free",
+            "status": "success",
+            "timeTaken": 54488,
+            "filePath": "/app/src/public/test-results/ebook-js/qwen_qwen3-32b_free.md"
+        },
+        {
+            "model": "qwen/qwen3-235b-a22b:free",
+            "status": "success",
+            "timeTaken": 55530,
+            "filePath": "/app/src/public/test-results/ebook-js/qwen_qwen3-235b-a22b_free.md"
+        },
+        {
+            "model": "tngtech/deepseek-r1t-chimera:free",
+            "status": "success",
+            "timeTaken": 12878,
+            "filePath": "/app/src/public/test-results/ebook-js/tngtech_deepseek-r1t-chimera_free.md"
+        },
+        {
+            "model": "microsoft/mai-ds-r1:free",
+            "status": "success",
+            "timeTaken": 26014,
+            "filePath": "/app/src/public/test-results/ebook-js/microsoft_mai-ds-r1_free.md"
+        },
+        {
+            "model": "thudm/glm-z1-32b:free",
+            "status": "success",
+            "timeTaken": 59350,
+            "filePath": "/app/src/public/test-results/ebook-js/thudm_glm-z1-32b_free.md"
+        },
+        {
+            "model": "thudm/glm-4-32b:free",
+            "status": "success",
+            "timeTaken": 73078,
+            "filePath": "/app/src/public/test-results/ebook-js/thudm_glm-4-32b_free.md"
+        },
+        {
+            "model": "shisa-ai/shisa-v2-llama3.3-70b:free",
+            "status": "success",
+            "timeTaken": 26849,
+            "filePath": "/app/src/public/test-results/ebook-js/shisa-ai_shisa-v2-llama3.3-70b_free.md"
+        },
+        {
+            "model": "arliai/qwq-32b-arliai-rpr-v1:free",
+            "status": "success",
+            "timeTaken": 40739,
+            "filePath": "/app/src/public/test-results/ebook-js/arliai_qwq-32b-arliai-rpr-v1_free.md"
+        },
+        {
+            "model": "agentica-org/deepcoder-14b-preview:free",
+            "status": "success",
+            "timeTaken": 17726,
+            "filePath": "/app/src/public/test-results/ebook-js/agentica-org_deepcoder-14b-preview_free.md"
+        },
+        {
+            "model": "moonshotai/kimi-vl-a3b-thinking:free",
+            "status": "success",
+            "timeTaken": 140836,
+            "filePath": "/app/src/public/test-results/ebook-js/moonshotai_kimi-vl-a3b-thinking_free.md"
+        },
+        {
+            "model": "nvidia/llama-3.3-nemotron-super-49b-v1:free",
+            "status": "success",
+            "timeTaken": 64250,
+            "filePath": "/app/src/public/test-results/ebook-js/nvidia_llama-3.3-nemotron-super-49b-v1_free.md"
+        },
+        {
+            "model": "nvidia/llama-3.1-nemotron-ultra-253b-v1:free",
+            "status": "success",
+            "timeTaken": 57724,
+            "filePath": "/app/src/public/test-results/ebook-js/nvidia_llama-3.1-nemotron-ultra-253b-v1_free.md"
+        },
+        {
+            "model": "meta-llama/llama-4-maverick:free",
+            "status": "success",
+            "timeTaken": 6528,
+            "filePath": "/app/src/public/test-results/ebook-js/meta-llama_llama-4-maverick_free.md"
+        },
+        {
+            "model": "meta-llama/llama-4-scout:free",
+            "status": "success",
+            "timeTaken": 752,
+            "filePath": "/app/src/public/test-results/ebook-js/meta-llama_llama-4-scout_free.md"
+        },
+        {
+            "model": "deepseek/deepseek-v3-base:free",
+            "status": "success",
+            "timeTaken": 7304,
+            "filePath": "/app/src/public/test-results/ebook-js/deepseek_deepseek-v3-base_free.md"
+        },
+        {
+            "model": "qwen/qwen2.5-vl-3b-instruct:free",
+            "status": "success",
+            "timeTaken": 64406,
+            "filePath": "/app/src/public/test-results/ebook-js/qwen_qwen2.5-vl-3b-instruct_free.md"
+        },
+        {
+            "model": "google/gemini-2.5-pro-exp-03-25",
+            "status": "error",
+            "error": "Error in talk"
+        },
+        {
+            "model": "qwen/qwen2.5-vl-32b-instruct:free",
+            "status": "success",
+            "timeTaken": 108641,
+            "filePath": "/app/src/public/test-results/ebook-js/qwen_qwen2.5-vl-32b-instruct_free.md"
+        },
+        {
+            "model": "deepseek/deepseek-chat-v3-0324:free",
+            "status": "success",
+            "timeTaken": 14380,
+            "filePath": "/app/src/public/test-results/ebook-js/deepseek_deepseek-chat-v3-0324_free.md"
+        },
+        {
+            "model": "featherless/qwerky-72b:free",
+            "status": "success",
+            "timeTaken": 261877,
+            "filePath": "/app/src/public/test-results/ebook-js/featherless_qwerky-72b_free.md"
+        },
+        {
+            "model": "mistralai/mistral-small-3.1-24b-instruct:free",
+            "status": "success",
+            "timeTaken": 10826,
+            "filePath": "/app/src/public/test-results/ebook-js/mistralai_mistral-small-3.1-24b-instruct_free.md"
+        },
+        {
+            "model": "open-r1/olympiccoder-32b:free",
+            "status": "success",
+            "timeTaken": 50296,
+            "filePath": "/app/src/public/test-results/ebook-js/open-r1_olympiccoder-32b_free.md"
+        },
+        {
+            "model": "google/gemma-3-1b-it:free",
+            "status": "success",
+            "timeTaken": 66798,
+            "filePath": "/app/src/public/test-results/ebook-js/google_gemma-3-1b-it_free.md"
+        },
+        {
+            "model": "google/gemma-3-4b-it:free",
+            "status": "success",
+            "timeTaken": 17582,
+            "filePath": "/app/src/public/test-results/ebook-js/google_gemma-3-4b-it_free.md"
+        },
+        {
+            "model": "google/gemma-3-12b-it:free",
+            "status": "success",
+            "timeTaken": 31965,
+            "filePath": "/app/src/public/test-results/ebook-js/google_gemma-3-12b-it_free.md"
+        },
+        {
+            "model": "rekaai/reka-flash-3:free",
+            "status": "success",
+            "timeTaken": 26179,
+            "filePath": "/app/src/public/test-results/ebook-js/rekaai_reka-flash-3_free.md"
+        },
+        {
+            "model": "google/gemma-3-27b-it:free",
+            "status": "success",
+            "timeTaken": 25399,
+            "filePath": "/app/src/public/test-results/ebook-js/google_gemma-3-27b-it_free.md"
+        },
+        {
+            "model": "deepseek/deepseek-r1-zero:free",
+            "status": "success",
+            "timeTaken": 35116,
+            "filePath": "/app/src/public/test-results/ebook-js/deepseek_deepseek-r1-zero_free.md"
+        },
+        {
+            "model": "qwen/qwq-32b:free",
+            "status": "success",
+            "timeTaken": 11947,
+            "filePath": "/app/src/public/test-results/ebook-js/qwen_qwq-32b_free.md"
+        },
+        {
+            "model": "moonshotai/moonlight-16b-a3b-instruct:free",
+            "status": "success",
+            "timeTaken": 61594,
+            "filePath": "/app/src/public/test-results/ebook-js/moonshotai_moonlight-16b-a3b-instruct_free.md"
+        },
+        {
+            "model": "nousresearch/deephermes-3-llama-3-8b-preview:free",
+            "status": "success",
+            "timeTaken": 3932,
+            "filePath": "/app/src/public/test-results/ebook-js/nousresearch_deephermes-3-llama-3-8b-preview_free.md"
+        },
+        {
+            "model": "cognitivecomputations/dolphin3.0-r1-mistral-24b:free",
+            "status": "success",
+            "timeTaken": 21820,
+            "filePath": "/app/src/public/test-results/ebook-js/cognitivecomputations_dolphin3.0-r1-mistral-24b_free.md"
+        },
+        {
+            "model": "cognitivecomputations/dolphin3.0-mistral-24b:free",
+            "status": "success",
+            "timeTaken": 13082,
+            "filePath": "/app/src/public/test-results/ebook-js/cognitivecomputations_dolphin3.0-mistral-24b_free.md"
+        },
+        {
+            "model": "qwen/qwen2.5-vl-72b-instruct:free",
+            "status": "success",
+            "timeTaken": 44715,
+            "filePath": "/app/src/public/test-results/ebook-js/qwen_qwen2.5-vl-72b-instruct_free.md"
+        },
+        {
+            "model": "mistralai/mistral-small-24b-instruct-2501:free",
+            "status": "success",
+            "timeTaken": 2645,
+            "filePath": "/app/src/public/test-results/ebook-js/mistralai_mistral-small-24b-instruct-2501_free.md"
+        },
+        {
+            "model": "deepseek/deepseek-r1-distill-qwen-32b:free",
+            "status": "success",
+            "timeTaken": 14323,
+            "filePath": "/app/src/public/test-results/ebook-js/deepseek_deepseek-r1-distill-qwen-32b_free.md"
+        },
+        {
+            "model": "deepseek/deepseek-r1-distill-qwen-14b:free",
+            "status": "success",
+            "timeTaken": 10684,
+            "filePath": "/app/src/public/test-results/ebook-js/deepseek_deepseek-r1-distill-qwen-14b_free.md"
+        },
+        {
+            "model": "deepseek/deepseek-r1-distill-llama-70b:free",
+            "status": "success",
+            "timeTaken": 32070,
+            "filePath": "/app/src/public/test-results/ebook-js/deepseek_deepseek-r1-distill-llama-70b_free.md"
+        },
+        {
+            "model": "deepseek/deepseek-r1:free",
+            "status": "success",
+            "timeTaken": 17390,
+            "filePath": "/app/src/public/test-results/ebook-js/deepseek_deepseek-r1_free.md"
+        },
+        {
+            "model": "deepseek/deepseek-chat:free",
+            "status": "success",
+            "timeTaken": 44372,
+            "filePath": "/app/src/public/test-results/ebook-js/deepseek_deepseek-chat_free.md"
+        },
+        {
+            "model": "google/gemini-2.0-flash-exp:free",
+            "status": "error",
+            "error": "Error in talk"
+        },
+        {
+            "model": "meta-llama/llama-3.3-70b-instruct:free",
+            "status": "success",
+            "timeTaken": 34789,
+            "filePath": "/app/src/public/test-results/ebook-js/meta-llama_llama-3.3-70b-instruct_free.md"
+        },
+        {
+            "model": "qwen/qwen-2.5-coder-32b-instruct:free",
+            "status": "success",
+            "timeTaken": 46031,
+            "filePath": "/app/src/public/test-results/ebook-js/qwen_qwen-2.5-coder-32b-instruct_free.md"
+        },
+        {
+            "model": "qwen/qwen-2.5-7b-instruct:free",
+            "status": "success",
+            "timeTaken": 4810,
+            "filePath": "/app/src/public/test-results/ebook-js/qwen_qwen-2.5-7b-instruct_free.md"
+        },
+        {
+            "model": "meta-llama/llama-3.2-3b-instruct:free",
+            "status": "success",
+            "timeTaken": 5645,
+            "filePath": "/app/src/public/test-results/ebook-js/meta-llama_llama-3.2-3b-instruct_free.md"
+        },
+        {
+            "model": "meta-llama/llama-3.2-1b-instruct:free",
+            "status": "success",
+            "timeTaken": 39850,
+            "filePath": "/app/src/public/test-results/ebook-js/meta-llama_llama-3.2-1b-instruct_free.md"
+        },
+        {
+            "model": "meta-llama/llama-3.2-11b-vision-instruct:free",
+            "status": "success",
+            "timeTaken": 21590,
+            "filePath": "/app/src/public/test-results/ebook-js/meta-llama_llama-3.2-11b-vision-instruct_free.md"
+        },
+        {
+            "model": "qwen/qwen-2.5-72b-instruct:free",
+            "status": "success",
+            "timeTaken": 20506,
+            "filePath": "/app/src/public/test-results/ebook-js/qwen_qwen-2.5-72b-instruct_free.md"
+        },
+        {
+            "model": "qwen/qwen-2.5-vl-7b-instruct:free",
+            "status": "success",
+            "timeTaken": 13223,
+            "filePath": "/app/src/public/test-results/ebook-js/qwen_qwen-2.5-vl-7b-instruct_free.md"
+        },
+        {
+            "model": "meta-llama/llama-3.1-405b:free",
+            "status": "success",
+            "timeTaken": 12042,
+            "filePath": "/app/src/public/test-results/ebook-js/meta-llama_llama-3.1-405b_free.md"
+        },
+        {
+            "model": "meta-llama/llama-3.1-8b-instruct:free",
+            "status": "success",
+            "timeTaken": 19035,
+            "filePath": "/app/src/public/test-results/ebook-js/meta-llama_llama-3.1-8b-instruct_free.md"
+        },
+        {
+            "model": "mistralai/mistral-nemo:free",
+            "status": "success",
+            "timeTaken": 5906,
+            "filePath": "/app/src/public/test-results/ebook-js/mistralai_mistral-nemo_free.md"
+        },
+        {
+            "model": "google/gemma-2-9b-it:free",
+            "status": "success",
+            "timeTaken": 1034,
+            "filePath": "/app/src/public/test-results/ebook-js/google_gemma-2-9b-it_free.md"
+        },
+        {
+            "model": "mistralai/mistral-7b-instruct:free",
+            "status": "success",
+            "timeTaken": 8242,
+            "filePath": "/app/src/public/test-results/ebook-js/mistralai_mistral-7b-instruct_free.md"
+        }
+    ]
+}

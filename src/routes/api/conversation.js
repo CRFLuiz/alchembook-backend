@@ -155,7 +155,7 @@ const writeMD = () => {
     fs.writeFileSync(`./src/public/errors.txt`, error);
     console.log('finished writing files');
 }
-writeMD();
+// writeMD();
 
 // testModels('Hello, how are you?', 'You are a helpful assistant.');
 // testModels('Olá. Como você pode me ajudar na criação de um ebook?');
