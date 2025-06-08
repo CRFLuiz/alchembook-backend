@@ -8,6 +8,6 @@ export class MetaLlamaLLM extends OpenRouterLLM {
   }
 
   async converse(userMessage) {
-    return await super.converse(userMessage, this.token, this.systemPrompt);
+    return await this.converse(userMessage, this.token, this.systemPrompt);
   }
 }

@@ -27,24 +27,6 @@ export class OpenRouterLLM {
       messages: history,
     });
 
-    const pmResponse = response.choices[0].message.content;
-    console.log('PM Response:', pmResponse);
-
-    // Conversão Markdown para HTML
-    const converterResponse = await this.openai.chat.completions.create({
-      model: this.converterModel,
-      messages: [
-        { role: 'system', content: 'Converta o markdown abaixo para HTML, substituindo quebras de linha (\n) por <p></p>' },
-        { role: 'user', content: pmResponse }
-      ],
-    });
-
-    const htmlResponse = converterResponse.choices[0].message.content.replace(/\\n/g, '').replace(/\n/g, '');
-    console.log('HTML Response:', htmlResponse);
-
-    history.push({ role: 'assistant', content: htmlResponse });
-    this.histories.set(token, history);
-
-    return htmlResponse;
+    return response;
   }
 }
