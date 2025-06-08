@@ -1,12 +1,13 @@
 # Alchembook Backend
 
 ## Descrição
-API Node.js para gerenciamento de criação de eBooks, integrando um Project Manager baseado em LLM via OpenRouter.
+API Node.js para gerenciamento de criação de eBooks, integrando um Project Manager baseado em LLM via OpenRouter. O projeto inclui um frontend simples para interação.
 
 ## Funcionalidades
 - **Endpoint `/chat`**: Interage com o Project Manager para criar eBooks.
 - **Sistema de Sessões**: Mantém histórico de conversas por token.
-- **Frontend Integrado**: Chat simples para testes.
+- **Conversão de Markdown para HTML**: Utiliza uma segunda LLM para formatação, substituindo `\n` por `<p></p>`.
+- **Frontend**: Chat com envio de mensagens via Enter e renderização de HTML.
 
 ## Como Usar
 1. **Clonar Repositório**:
@@ -32,3 +33,8 @@ API Node.js para gerenciamento de criação de eBooks, integrando um Project Man
 - **Branches**: Utilizar `feature/_<nome>` para novas funcionalidades.
 - **Commits**: Seguir formato `[TIPO] Descrição`.
 - **Documentação**: Manter `gptme-knowledge` atualizado.
+
+## Arquitetura
+- **Backend**: Node.js, Express, OpenAI SDK.
+- **Frontend**: HTML, CSS, JavaScript.
+- **LLM**: OpenRouter para Project Manager e GPT-3.5-turbo para conversão de Markdown.

@@ -15,7 +15,6 @@ class OpenRouterLLM {
     
     let history = this.histories.get(token) || [];
 
-    // System prompt para configurar o Project Manager
     const systemPrompt = `
       Você é um Project Manager especializado em criação de eBooks. Seu objetivo é coletar todas as informações necessárias para planejar e executar a criação de um eBook sem que o Product Owner precise estar presente após o início do projeto. 
 
@@ -32,7 +31,6 @@ class OpenRouterLLM {
       Se o usuário já fornecer todas as informações, pule as perguntas e prossiga com o planejamento.
     `;
 
-    // Verifica se é a primeira mensagem da sessão
     if (history.length === 0) {
       history.push({ role: 'system', content: systemPrompt });
     }
@@ -44,13 +42,25 @@ class OpenRouterLLM {
       messages: history,
     });
 
-    console.log(response.choices[0].message)
+    const pmResponse = response.choices[0].message.content//.replace(/^{.*?"response":\s*"/g, '').replace(/}\s*$/g, '');
+    console.log('PM Response:', pmResponse);
 
-    const assistantResponse = response.choices[0].message.content;
-    history.push({ role: 'assistant', content: assistantResponse });
+    // Converter markdown para HTML usando outra LLM
+    const converterResponse = await this.openai.chat.completions.create({
+      model: 'openai/gpt-3.5-turbo',
+      messages: [
+        { role: 'system', content: 'Converta o markdown abaixo para HTML, substituindo quebras de linha (\n) por <p></p>' },
+        { role: 'user', content: pmResponse }
+      ],
+    });
+
+    const htmlResponse = converterResponse.choices[0].message.content.replace(/\\n/g, '').replace(/\n/g, '');
+    console.log('HTML Response:', htmlResponse);
+
+    history.push({ role: 'assistant', content: htmlResponse });
     this.histories.set(token, history);
 
-    return assistantResponse;
+    return htmlResponse;
   }
 }
 

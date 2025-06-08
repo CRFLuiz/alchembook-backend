@@ -8,6 +8,7 @@ const port = 3000;
 const OpenRouterLLM = require('./llm');
 
 const models = [
+  'meta-llama/llama-4-scout:free',
   'google/gemini-2.0-flash-exp:free',
   'qwen/qwen3-32b:free', //reasoning
 ]
@@ -34,6 +35,7 @@ app.post('/chat', async (req, res) => {
 
 const path = require('path');
 app.use(express.static(path.join(__dirname, 'alchembook-frontend')));
+app.use('/alchembook-frontend', express.static(path.join(__dirname, 'alchembook-frontend')));
 
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
