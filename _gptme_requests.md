@@ -1,0 +1,8 @@
+- preciso de um index.js para ser o entrypoint da aplicação
+- preciso que seja instalado o express para servir a app
+- preciso de uma classe para levantar uma LLM da OpenRouter
+    - devo passar apenas o nome do modelo para que a LLM seja criada
+    - deve haver um método para conversar com a LLM
+    - o histórico de mensagens deve ser guardado em uma variavel, inicialmente.
+        - sempre que eu chamar o método de conversa, irei passar apenas a minha mensagem. O método deve recuperar o histórico, enviar para a LLM e cuspir a resposta
+- adicione ao gitignore qualquer arquivo que comece com _gptme

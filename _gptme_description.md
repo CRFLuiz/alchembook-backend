@@ -1,0 +1,4 @@
+- Criado servidor Express com endpoint `/chat`.
+- Implementada classe LLM para comunicação com OpenAI.
+- Configurada variável de ambiente `OPENAI_API_KEY`.
+- Testes realizados com requisições POST.
