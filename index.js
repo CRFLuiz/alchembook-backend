@@ -3,9 +3,7 @@ const express = require('express');
 const app = express();
 const port = 3000;
 
-app.get('/', (req, res) => {
-  res.send('Alchembook Backend running!');
-});
+// Remover a rota padrão para evitar conflito com o static
 
 const OpenRouterLLM = require('./llm');
 
@@ -33,6 +31,9 @@ app.post('/chat', async (req, res) => {
     res.status(500).json({ error: error.message });
   }
 });
+
+const path = require('path');
+app.use(express.static(path.join(__dirname, 'alchembook-frontend')));
 
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
