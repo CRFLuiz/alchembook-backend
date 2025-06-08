@@ -8,23 +8,28 @@ app.get('/', (req, res) => {
 });
 
 const OpenRouterLLM = require('./llm');
+
+const models = [
+  'google/gemini-2.0-flash-exp:free',
+  'qwen/qwen3-32b:free', //reasoning
+]
+
 const llm = new OpenRouterLLM(
-  'qwen/qwen3-32b:free', 
+  models[0], 
   process.env.OPENROUTER_API_KEY
 );
 
 app.use(express.json());
 
 app.post('/chat', async (req, res) => {
-  const { message, token } = req.body; console.log(req.body);
+  const { message, token } = req.body;
   if (!token) return res.status(400).json({ error: 'Token de sessão é obrigatório' });
   
   try {
-    console.log('try')
     const response = await llm.converse(message, token);
-    console.log('response', response);
     res.json({ response });
   } catch (error) {
+    console.log(error)
     res.status(500).json({ error: error.message });
   }
 });
