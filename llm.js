@@ -3,17 +3,15 @@ const OpenAI = require('openai');
 class OpenRouterLLM {
   constructor(modelName) {
     this.modelName = modelName;
-    this.histories = new Map(); // {token: history}
+    // this.histories = new Map(); // Removido, o histórico será gerenciado pela sessão
     this.openai = new OpenAI({
       baseURL: 'https://openrouter.ai/api/v1',
       apiKey: process.env.OPENROUTER_API_KEY,
     });
   }
 
-  async converse(userMessage, token) {
-    if (!token) throw new Error('Token de sessão é obrigatório');
-    
-    let history = this.histories.get(token) || [];
+  async converse(userMessage, conversationHistory = []) { // Recebe o histórico como parâmetro
+    let history = [...conversationHistory]; // Cria uma cópia para não modificar o original diretamente
 
     const systemPrompt = `
       Você é um Project Manager especializado em criação de eBooks. Seu objetivo é coletar todas as informações necessárias para planejar e executar a criação de um eBook sem que o Product Owner precise estar presente após o início do projeto. 
@@ -31,8 +29,9 @@ class OpenRouterLLM {
       Se o usuário já fornecer todas as informações, pule as perguntas e prossiga com o planejamento.
     `;
 
-    if (history.length === 0) {
-      history.push({ role: 'system', content: systemPrompt });
+    // Adiciona o systemPrompt apenas se o histórico estiver vazio (nova sessão)
+    if (history.length === 0 || history[0].role !== 'system') {
+      history.unshift({ role: 'system', content: systemPrompt }); // Adiciona no início
     }
 
     history.push({ role: 'user', content: userMessage });
@@ -42,7 +41,7 @@ class OpenRouterLLM {
       messages: history,
     });
 
-    const pmResponse = response.choices[0].message.content//.replace(/^{.*?"response":\s*"/g, '').replace(/}\s*$/g, '');
+    const pmResponse = response.choices[0].message.content;
     console.log('PM Response:', pmResponse);
 
     // Converter markdown para HTML usando outra LLM
@@ -58,9 +57,9 @@ class OpenRouterLLM {
     console.log('HTML Response:', htmlResponse);
 
     history.push({ role: 'assistant', content: htmlResponse });
-    this.histories.set(token, history);
+    // this.histories.set(token, history); // Removido
 
-    return htmlResponse;
+    return { response: htmlResponse, updatedHistory: history }; // Retorna o HTML e o histórico atualizado
   }
 }
 
