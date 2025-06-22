@@ -5,29 +5,59 @@ API Node.js para gerenciamento de criação de eBooks, integrando um Project Man
 
 ## Funcionalidades
 - **Endpoint `/chat`**: Interage com o Project Manager para criar eBooks.
-- **Sistema de Sessões**: Mantém histórico de conversas por token.
+- **Autenticação de Usuários**: Rotas de `signup` e `login` com persistência de dados via PostgreSQL e Sequelize.
+- **Sistema de Sessões**: Mantém histórico de conversas por token (Redis) e estado de autenticação do usuário.
 - **Conversão de Markdown para HTML**: Utiliza uma segunda LLM para formatação, substituindo `\n` por `<p></p>`.
-- **Frontend**: Chat com envio de mensagens via Enter e renderização de HTML.
+- **Frontend**: Páginas de `Login` e `Sign Up`, além do chat com envio de mensagens via Enter e renderização de HTML.
 
 ## Como Usar
 1. **Clonar Repositório**:
-   ```bash
+   ```txt
    git clone https://github.com/CRFLuiz/alchembook-backend.git
    ```
 2. **Instalar Dependências**:
-   ```bash
+   ```txt
    npm install
    ```
 3. **Configurar .env**:
-   ```bash
+   Crie um arquivo `.env` na raiz do projeto com as seguintes variáveis:
+   ```txt
+   OPENROUTER_API_KEY=sua_chave_api_openrouter
+   SESSION_SECRET=uma_chave_secreta_forte_e_aleatoria
+   REDIS_URL=redis://localhost:6379 # Opcional, padrão é localhost:6379
+   DB_USER=seu_usuario_postgres
+   DB_PASSWORD=sua_senha_postgres
+   DB_NAME=seu_banco_de_dados_postgres
+   DB_HOST=localhost # Ou o host do seu container/servidor Postgres
+   DB_PORT=5432 # Opcional, padrão é 5432
+   ```
+   Você pode usar o `.env.example` como base:
+   ```txt
    cp .env.example .env
    ```
-4. **Iniciar Servidor**:
-   ```bash
+4. **Configurar e Iniciar Banco de Dados (PostgreSQL) e Redis**:
+   Certifique-se de ter um servidor PostgreSQL e Redis rodando e acessíveis. Você pode usar `docker-compose` para isso.
+
+5. **Executar Migrações e Seeders**:
+   Para criar as tabelas no banco de dados e popular com dados iniciais (como um usuário administrador), execute:
+   ```txt
+   npx sequelize-cli db:migrate
+   npx sequelize-cli db:seed:all
+   ```
+   *   **Usuário inicial do seeder**: `email: admin@example.com`, `password: password123`
+
+6. **Iniciar Servidor**:
+   ```txt
+   npm run dev
+   ```
+   ou
+   ```txt
    node index.js
    ```
-5. **Acessar Frontend**:
-   - URL: `http://34.217.15.78:3000`
+7. **Acessar Frontend**:
+   - Página de Login: `http://localhost:3000/login.html`
+   - Página de Sign Up: `http://localhost:3000/signup.html`
+   - Página Principal (Chat): `http://localhost:3000` (Após login bem-sucedido)
 
 ## Diretrizes
 - **Branches**: Utilizar `feature/_<nome>` para novas funcionalidades.
